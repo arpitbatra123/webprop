@@ -1,0 +1,54 @@
+@import "./reset";
+@import "./variables";
+
+body {
+  font-family: "Satoshi", sans-serif;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  ol {
+    display: flex;
+    flex-direction: row;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+}
+
+main {
+  max-width: 80ch;
+  margin: 0 auto;
+  .profile {
+    width: 60%;
+    img {
+      border-radius: 4px;
+    }
+    figcaption {
+      margin: 0.4rem;
+      color: rgb(88 88 88);
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: $breakpoint-md) {
+  main {
+    max-width: 30ch;
+  }
+  .hero {
+    flex-direction: column;
+  }
+}
