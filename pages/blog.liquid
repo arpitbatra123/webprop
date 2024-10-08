@@ -1,0 +1,47 @@
+---
+permalink: blog/index.html
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arpit Batra's Blog</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/blog.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Arpit Batra's blog</h1>
+    </header>
+    <main>
+      <ul class="posts">
+        {% for post in collections.posts reversed %}
+        <li class="post">
+          {% if post.data.meta.hindiTitle %}
+          <!-- Can contain a hindi specific font later -->
+          <span class="post-title">
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+          </span>
+          {% else %} {% if post.data.externalLink %}
+          <span class="post-title">
+            <a href="{{ post.data.externalLink }}">{{ post.data.title }}</a>
+          </span>
+          {% else %}
+          <span class="post-title">
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+          </span>
+          {% endif %} {% endif %}
+          <div class="| post-date">
+            {{ post.date | date : "%b %Y" }}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html>
