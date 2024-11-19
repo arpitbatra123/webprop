@@ -1,6 +1,7 @@
 {
   "name": "webprop",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build:sass": "sass styles:_site/styles --no-source-map --style=compressed --update",
     "watch:sass": "sass styles:_site/styles --update --watch",
