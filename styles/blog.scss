@@ -26,6 +26,9 @@ header {
 main {
   max-width: 60ch;
   margin: 0 auto;
+  li + li {
+    margin-top: 0.5rem;
+  }
 
   .posts {
     text-align: left;

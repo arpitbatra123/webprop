@@ -4,7 +4,6 @@
 body {
   font-family: "Satoshi", sans-serif;
   //   text-align: center;
-  background-color: rgb(220, 220, 221);
 }
 
 header {
@@ -49,8 +48,15 @@ footer {
     max-width: 30ch;
     margin: 1rem;
   }
+  header {
+    align-items: unset;
+    margin: 1rem;
+    h1 {
+      margin: 0.2rem 0 0.1rem 0;
+    }
+  }
 
   .post-meta {
-    margin: 0.5rem;
+    margin: 0rem;
   }
 }
