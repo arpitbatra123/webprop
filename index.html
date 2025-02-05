@@ -95,7 +95,11 @@
     <main>
       <div class="hero">
         <figure class="profile">
-          <img src="./assets/images/profile.png" />
+          <picture>
+            <source srcset="./assets/images/profile.webp" type="image/webp" />
+            <source srcset="./assets/images/profile.png" type="image/png" />
+            <img src="./assets/images/profile.png" alt="Profile Picture">
+          </picture>
           <figcaption>Yep, that's me!</figcaption>
         </figure>
         <div class="about">
