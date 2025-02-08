@@ -1,7 +1,8 @@
 // .eleventy.js
 
 import markdownIt from "markdown-it";
-export default function (eleventyConfig) {
+import Shiki from "@shikijs/markdown-it";
+export default async function (eleventyConfig) {
   // Watch CSS files for changes
   eleventyConfig.setBrowserSyncConfig({
     files: "./_site/styles/**/*.css",
@@ -14,5 +15,12 @@ export default function (eleventyConfig) {
       typographer: true,
     },
     markdownEngine = markdownIt(options);
+
+    markdownEngine.use(
+    await Shiki({
+      theme: "everforest-dark",
+    })
+  );
+
   eleventyConfig.setLibrary("md", markdownEngine);
-};
+}
