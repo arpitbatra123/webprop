@@ -1,5 +1,5 @@
-@import "./reset";
-@import "./variables";
+@use "reset";
+@use "variables";
 
 body {
   font-family: "Satoshi", sans-serif;
@@ -30,7 +30,7 @@ header {
 
   .post-meta {
     display: flex;
-    color: #464444;;
+    color: #464444;
     .date-spacer {
       margin: 0 0.5rem;
     }
@@ -51,7 +51,7 @@ footer {
   margin: 1rem;
 }
 
-@media (max-width: $breakpoint-md) {
+@media (max-width: variables.$breakpoint-md) {
   main {
     max-width: 30ch;
     margin: 1rem;
@@ -87,4 +87,11 @@ video {
 .shiki {
   padding: 2rem;
   border-radius: 6px;
+}
+
+// List items
+ul,
+ol {
+  list-style: unset;
+  margin: 1em;
 }

@@ -1,5 +1,5 @@
-@import "./reset";
-@import "./variables";
+@use "reset";
+@use "variables";
 
 body {
   font-family: "Satoshi", sans-serif;
@@ -51,7 +51,7 @@ main {
   }
 }
 
-@media (max-width: $breakpoint-md) {
+@media (max-width: variables.$breakpoint-md) {
   main {
     max-width: 30ch;
     margin: 1rem;
