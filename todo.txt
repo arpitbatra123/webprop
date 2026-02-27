@@ -1,8 +1,8 @@
 todo:
-- meta tags, images
 - projects
 
 done:
+- meta tags, images
 - social links - mail, github, feed, goodreads
 - rss feed
 - favicon
