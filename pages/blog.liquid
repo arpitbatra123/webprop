@@ -11,19 +11,21 @@ permalink: blog/index.html
     <title>Arpit Batra's Blog</title>
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
     <link rel="icon" href="/assets/images/favicon.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="dns-prefetch" href="https://api.fontshare.com" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/blog.css" />
     {% include "analytics.liquid" %}
-    {% include "open-graph.liquid" %}
+    {% include "seo-meta.liquid" %}
   </head>
   <body>
     <header>
       <h1>Arpit Batra's Blog</h1>
     </header>
-    <main>
+    <main id="main" role="main">
       <ul class="posts">
         {% for post in collections.posts reversed %}
         <li class="post">

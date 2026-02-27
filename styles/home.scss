@@ -4,7 +4,7 @@
 body {
   font-family: "Satoshi", sans-serif;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: variables.$color-background;
 }
 
 header {
@@ -40,7 +40,7 @@ main {
     }
     figcaption {
       margin: 0.4rem;
-      color: rgb(88 88 88);
+      color: variables.$color-text;
     }
   }
 }

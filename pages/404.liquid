@@ -1,9 +1,16 @@
+---
+permalink: 404.html
+eleventyExcludeFromCollections: true
+title: 404 - Page not found
+description: The page you’re looking for could not be found on Arpit Batra’s website.
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content="{{ eleventy.generator }}">
+    <meta name="generator" content="{{ eleventy.generator }}" />
     <title>{{ title }}</title>
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
     <link rel="icon" href="/assets/images/favicon.svg" type="image/x-icon" />
@@ -13,29 +20,27 @@
       href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles/blogpost.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
     {% include "analytics.liquid" %}
     {% include "seo-meta.liquid" %}
   </head>
   <body>
     <header>
-      <h2>Arpit Batra's <a href="/blog"> Blog</a></h2>
-      <h1>{{ title }}</h1>
-      <div class="post-meta">
-        <div class="post-date">{{ date | date : "%b %d %Y" }}</div>
-        {% if updatedAt %}
-        <span class="date-spacer">•</span>
-        <div class="post-updated-date">
-          <span>Updated</span>
-          <time dateTime="{{ updatedAt | date : "%b %d %Y" }}">{{ updatedAt | date : "%b %d %Y" }}</time>
-        </div>
-        {% endif %}
-      </div>
+      <h1>Arpit Batra</h1>
+      <h2>Page not found</h2>
     </header>
     <main id="main" role="main">
-      {{ content }}
+      <div class="hero">
+        <div class="about">
+          <p>The page you’re looking for doesn’t exist or may have moved.</p>
+          <p>
+            You can go back to the <a href="/">home page</a> or visit the
+            <a href="/blog">blog</a>.
+          </p>
+        </div>
+      </div>
     </main>
-    <footer>
-    </footer>
+    <footer></footer>
   </body>
 </html>
+

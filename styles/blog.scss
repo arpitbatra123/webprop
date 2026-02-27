@@ -4,7 +4,7 @@
 body {
   font-family: "Satoshi", sans-serif;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: variables.$color-background;
 }
 
 header {
@@ -35,7 +35,7 @@ main {
     .post {
       &-date {
         font-size: 12px;
-        color: rgb(0 0 0 / 65%);
+        color: variables.$color-text;
       }
 
       &-title {

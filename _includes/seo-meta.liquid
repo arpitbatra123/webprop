@@ -1,0 +1,23 @@
+{%- assign seo_title = title | default: "Arpit Batra" -%}
+{%- assign seo_description = description | default: "The personal website and blog of Arpit Batra" -%}
+{%- assign seo_url = site.url | append: page.url -%}
+{%- assign seo_image = site.url | append: "/assets/images/Arpit Batra-Open-Graph.png" -%}
+
+<meta name="description" content="{{ seo_description }}">
+<link rel="canonical" href="{{ seo_url }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ seo_title }}">
+<meta property="og:description" content="{{ seo_description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ seo_url }}">
+<meta property="og:image" content="{{ seo_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ seo_title }}">
+<meta name="twitter:description" content="{{ seo_description }}">
+<meta name="twitter:image" content="{{ seo_image }}">
+

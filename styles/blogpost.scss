@@ -30,7 +30,7 @@ header {
 
   .post-meta {
     display: flex;
-    color: #464444;
+    color: variables.$color-text;
     .date-spacer {
       margin: 0 0.5rem;
     }
