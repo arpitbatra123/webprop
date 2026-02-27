@@ -9,7 +9,7 @@ If you've seen my project titled [inspo](https://inspo-arpit.vercel.app/), you a
 
 One day, while randomly browsing images in this collection, I came across the following image:
 
-[![Screenshot of inspiration for mnml new tab](../../assets/images/mnml-inspo.png#markdown)](../../assets/images/mnml-inspo.png)
+[![Screenshot of inspiration for mnml new tab](/assets/images/mnml-new-tab-inspo.png#markdown)](/assets/images/mnml-new-tab-inspo.png)
 
 The screenshot showed a new tab page with a pretty minimal layout.
 
@@ -27,11 +27,11 @@ The extension's code is open source and is available [on github](https://github.
 
 Here is how the new tab page looks on chrome and firefox and edge:
 
-[![Screenshot of mnml new tab on chrome](../../assets/images/mnml-chrome.png#markdown)](../../assets/images/mnml-chrome.png)
+[![Screenshot of mnml new tab on chrome](/assets/images/mnml-new-tab-chrome.png#markdown)](/assets/images/mnml-new-tab-chrome.png)
 
-[![Screenshot of mnml new tab on firefox](../../assets/images/mnml-firefox.png#markdown)](../../assets/images/mnml-firefox.png)
+[![Screenshot of mnml new tab on firefox](/assets/images/mnml-new-tab-firefox.png#markdown)](/assets/images/mnml-new-tab-firefox.png)
 
-[![Screenshot of mnml new tab on edge](../../assets/images/mnml-edge.png#markdown)](../../assets/images/mnml-edge.png)
+[![Screenshot of mnml new tab on edge](/assets/images/mnml-new-tab-edge.png#markdown)](/assets/images/mnml-new-tab-edge.png)
 
 ## Download
 
@@ -43,6 +43,6 @@ Here is how the new tab page looks on chrome and firefox and edge:
 Added dark mode support:
 
 <video controls autoplay loop>
-  <source src="../../assets/images/mnml-new-tab-dark-mode.mp4" type="video/mp4">
+  <source src="/assets/images/mnml-new-tab-dark-mode.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

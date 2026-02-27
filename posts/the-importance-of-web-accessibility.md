@@ -10,7 +10,7 @@ Let me explain by telling you a personal anecdote.
 
 Some months ago when COVID was not a word, I used to travel to a market near my home on a Metro train. The stairs that lead to the entrance of the Metro station have a very peculiar architecture. They are still stairs but a slope of some kind runs in a zig-zag fashion throughout them. See the picture below to have an idea of what I am saying.
 
-![Indiranagar Metro Station](/assets/indiranagar-metro.jpeg)  
+![Indiranagar Metro Station](/assets/images/the-importance-of-web-accessibility-indiranagar.jpeg)  
 For a very long time, I did not think very much of it, until one day I saw a guy drag a man in a wheelchair across that slope. Then it hit me, the slope was there to facilitate users who were unable to use the stairs because of a disability.
 
 The short story you just read was an example of accessibility in the real world. The stairs facilitate the movement of able people, the slope does the same for those who are unable to. Both of these blend together so well that it's almost difficult to think of them separately.
@@ -49,7 +49,7 @@ Due to the tweets you read in the previous point, you must be thinking that acce
 
 > Thus, accessibility is making sure that the web should be usable by the widest range of people possible.
 
-![The contrast in the Windows (and I assume other platforms) client is too low, it is killing my eyes. Grey on black or grey on white does not provide enough contrast between text and background. The whole application has a kind of permanently 'disabled' look to it, which it makes it painful to use for extended periods of time. The text needs to be darker in the light theme and lighter in the dark theme. Same for element borders, etc.](/assets/github-accessibility.png)
+![The contrast in the Windows (and I assume other platforms) client is too low, it is killing my eyes. Grey on black or grey on white does not provide enough contrast between text and background. The whole application has a kind of permanently 'disabled' look to it, which it makes it painful to use for extended periods of time. The text needs to be darker in the light theme and lighter in the dark theme. Same for element borders, etc.](/assets/images/the-importance-of-web-accessibility-screenshot.png)
 
 Color Contrast is one of the things we need to make sure while designing interfaces, as we can see clearly (pun intended), people with good vision can also be adversely affected if we don't incorporate accessibility in design.
 

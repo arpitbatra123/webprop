@@ -4,7 +4,7 @@ date: 2018-02-17 00:00:00 Z
 tags:
 ---
 
-![](/assets/images/running-challenge.jpeg)
+![](/assets/images/running-challenge-hero.jpeg)
 
 A month of 2018 had passed. It was the first day of February. January had passed like a bullet train. That is the thing about time, you think you have control over it, that you'll remember moments as they pass but always remember, that life will pass right in front of your eyes and you wouldn't have a clue.
 
@@ -58,4 +58,4 @@ Update: 14 March 2018 After writing this very motivational blog, I started slack
 
 (Although nobody ever reads my blogs but still) Wish me luck!
 
-![](/assets/images/running-challenge.gif)
+![](/assets/images/running-challenge-demo.gif)

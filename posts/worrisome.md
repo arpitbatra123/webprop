@@ -4,7 +4,7 @@ date: 2020-02-01 00:00:00 Z
 tags:
 ---
 
-![](/assets/images/worry-handwritten.jpg)
+![](/assets/images/worrisome-handwritten.jpg)
 
 See, that's the thing about people who worry a lot.
 

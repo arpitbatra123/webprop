@@ -68,7 +68,7 @@ Cool! That sure does look fine but the text is stuck on the corner. Let's add so
 }
 ```
 
-![](/assets/images/border-box-content-box-demo.gif)
+![](/assets/images/box-sizing-css-border-box-content-box-demo.gif)
 
 WHAT? The dimensions of the box have changed? What's happening? After furiously digging in the browser's dev tools, you find out the padding value of `10px` is being added to the width and height of the box. The browser is doing this and is just ignoring the width and height you've specified.
 

@@ -5,7 +5,7 @@ tags:
 - 
 ---
 
-![](/assets/images/rainy-road.jpg)
+![](/assets/images/barsaat-rainy-road.jpg)
 
 फिर बरसात आ गई है,
 फिर गरीब के आँगन का चूल्हा बुझ गया है.

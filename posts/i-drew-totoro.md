@@ -5,7 +5,7 @@ tags:
 ---
 
 <figure>
-  <img src="../../assets/images/totoro.jpg" alt="totoro" loading="lazy">
+  <img src="/assets/images/i-drew-totoro-totoro.jpg" alt="totoro" loading="lazy">
   <figcaption style='text-align:center'>
   <a href='https://en.wikipedia.org/wiki/My_Neighbor_Totoro'>totoro</a>
   </figcaption>

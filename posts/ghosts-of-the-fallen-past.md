@@ -40,17 +40,17 @@ I headed down some steps and then found what I was looking for.
 
 Here are some photos:
 
-[![Path leading to cemetery](/assets/img_0570.jpg)](/assets/img_0570.jpg)
+[![Path leading to cemetery](/assets/images/ghosts-of-the-fallen-past-path.jpg)](/assets/images/ghosts-of-the-fallen-past-path.jpg)
 
-[![Locked Gates of the cemetary](/assets/img_0571.jpg)](/assets/img_0571.jpg)
+[![Locked Gates of the cemetary](/assets/images/ghosts-of-the-fallen-past-gates.jpg)](/assets/images/ghosts-of-the-fallen-past-gates.jpg)
 
-[![An old structure inside the cemetry](/assets/img_0573.jpg)](/assets/img_0570.jpg)
+[![An old structure inside the cemetry](/assets/images/ghosts-of-the-fallen-past-structure.jpg)](/assets/images/ghosts-of-the-fallen-past-structure.jpg)
 
-[![Ancient grave](/assets/img_0577.jpg)](/assets/img_0577.jpg)
+[![Ancient grave](/assets/images/ghosts-of-the-fallen-past-grave-1.jpg)](/assets/images/ghosts-of-the-fallen-past-grave-1.jpg)
 
-[![Ancient grave in the cemetery](/assets/img_0578.jpg)](/assets/img_0578.jpg)
+[![Ancient grave in the cemetery](/assets/images/ghosts-of-the-fallen-past-grave-2.jpg)](/assets/images/ghosts-of-the-fallen-past-grave-2.jpg)
 
 <video autoplay loop muted>
-<source src="/assets/img_0578.mp4">
+<source src="/assets/images/ghosts-of-the-fallen-past-video.mp4">
 Your browser does not support the video tag.
 </video>

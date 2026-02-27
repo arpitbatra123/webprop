@@ -14,7 +14,7 @@ I just met a person who has not yet died his second death yet. The person is Sev
 
 A few days ago, my maternal grandmother gave me this book:  
   
-![](/assets/sevakraam-book-cover.png)
+![](/assets/images/where-are-we-coming-from-where-will-we-go-sevakraam-cover.png)
 
 This is an autobiography of Sevak Raam Yatri, a story of a life consisting of unfortunate disasters, and how this man persisted through it all.
 

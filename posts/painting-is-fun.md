@@ -16,12 +16,12 @@ This is how the painting looked in the video:
 And this is my first attempt at the painting:
 
 
-![My first attempt at the painting](/assets/images/painting-first-attempt.jpg)
+![My first attempt at the painting](/assets/images/painting-is-fun-first-attempt.jpg)
 
 
 I was not very patient while drawing the painting for the first so it did not turn up as good as I wanted it to. Therefore I decided to have another go at it. This is my second attempt:
 
-![My second attempt at the painting](/assets/images/painting-first-attempt.jpg)
+![My second attempt at the painting](/assets/images/painting-is-fun-second-attempt.jpg)
 
 
 This time it was significantly better. The colors could be a little brighter but that's a lesson for the future.

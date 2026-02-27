@@ -4,7 +4,7 @@ date: 2021-03-11 15:30:00 Z
 tags:
 ---
 
-![The window of my messy room](/assets/window.JPG "Window")  
+![The window of my messy room](/assets/images/i-ve-seen-the-world-from-my-window-window.jpg "Window")  
   
 i’ve seen the world from my window
 
