@@ -28,7 +28,7 @@ Then you add some CSS
 }
 ```
 
-<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="rNxKyEo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 1"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/rNxKyEo"> border-box step 1</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
+<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="rNxKyEo" data-pen-title="border-box step 1"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/rNxKyEo"> border-box step 1</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
 
 <br />
 
@@ -53,7 +53,7 @@ Let's also add some styles to the text we just added.
 }
 ```
 
-<p class="codepen" data-height="378" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="NWxzjKw" style="height: 378px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 2"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/NWxzjKw"> border-box step 2</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
+<p class="codepen" data-height="378" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="NWxzjKw" data-pen-title="border-box step 2"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/NWxzjKw"> border-box step 2</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
 
 <br />
 
@@ -92,7 +92,7 @@ Yes, there is. Let us add the `box-sizing` property with a value of `border-box`
 }
 ```
 
-<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="eYJKWWo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 3"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/eYJKWWo"> border-box step 3</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
+<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="eYJKWWo" data-pen-title="border-box step 3"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/eYJKWWo"> border-box step 3</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
 
 <br />
 
@@ -126,5 +126,4 @@ These are the articles that helped me out in understanding and imparting this bo
 
 <br />
 
-<!-- CodePen JS -->
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<!-- CodePen embed script is loaded in the post layout for the live page. -->

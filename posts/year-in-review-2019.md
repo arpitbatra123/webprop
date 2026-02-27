@@ -1,6 +1,6 @@
 ---
 title: Year in review 2019
-date: 2019-12-31 00:00:00 Z
+date: 2019-12-31 12:00:00 Z
 tags:
 - prose
 - journal
