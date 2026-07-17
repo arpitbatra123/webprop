@@ -4,7 +4,8 @@ date: 2022-08-23 15:30:00 Z
 tags:
 ---
 
-I got my right wisdom tooth extracted today. I was lying on the dentist's chair while the dentist and her assistant operated on me with dangerous-looking tools, and  I was trying to distract myself by thinking all kinds of thoughts.  
+I got my right wisdom tooth extracted today. I was lying on the dentist's chair while the dentist and her assistant operated on me with dangerous-looking tools, and I was trying to distract myself by thinking all kinds of thoughts.
+
 Following one such train of thought, I decided to write about my experience.
 
 It might have been the effect of the anesthesia, but I went into a deeply retrospective state as I lay on the chair. Talking of anesthesia, that's where the procedure started. The dentist told me to remove my spectacles first, and the world was all kinds of blurry after that. She told me to open my mouth and was trying to inject the anesthesia into my gum. I was having a lot of trouble keeping my tongue out of the way, as the thought of a needle entering my gum was not a very pleasant one, especially for me who gets anxious during medical procedures.

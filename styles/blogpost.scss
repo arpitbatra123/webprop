@@ -36,6 +36,17 @@ header {
     }
   }
 
+  .post-age-warning {
+    margin: 1.25rem 0 0;
+    padding: 0.15rem 0 0.15rem 1rem;
+    border-left: 2px solid #e2ded8;
+    color: #6f6c66;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: left;
+    font-style: italic;
+  }
+
   .post-date {
     font-size: 1rem;
   }
@@ -63,6 +74,11 @@ footer {
       margin: 0.2rem 0 0.1rem 0;
       text-align: unset;
     }
+  }
+
+  .post-age-warning {
+    margin: 1.25rem 0 0;
+    padding: 0.15rem 0 0.15rem 1rem;
   }
 
   .post-meta {

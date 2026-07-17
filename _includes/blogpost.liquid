@@ -31,6 +31,11 @@
         </div>
         {% endif %}
       </div>
+      {% if date | isOlderThanYears %}
+      <aside class="post-age-warning" role="note">
+        This post is more than {{ warningThresholdYears }} years old. Some details, opinions, or context may be out of date.
+      </aside>
+      {% endif %}
     </header>
     <main id="main" role="main">
       {{ content }}
