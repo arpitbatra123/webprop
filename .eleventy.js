@@ -10,6 +10,14 @@ export default async function (eleventyConfig) {
       url: "https://arpit.tk",
     }));
 
+    const warningThresholdYears = 3;
+    eleventyConfig.addGlobalData("warningThresholdYears", warningThresholdYears);
+
+    eleventyConfig.addFilter("isOlderThanYears", (date) => {
+      const thresholdMs = warningThresholdYears * 365.25 * 24 * 60 * 60 * 1000;
+      return Date.now() - new Date(date).getTime() > thresholdMs;
+    });
+
     // Watch CSS files for changes
     eleventyConfig.setBrowserSyncConfig({
       files: "./_site/styles/**/*.css",
