@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="{{ eleventy.generator }}" />
+    <title>{{ title | default: "Arpit Batra" }}</title>
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
+    <link rel="icon" href="/assets/images/site-favicon.svg" type="image/x-icon" />
+    {%- if fontCss %}
+    <link rel="preconnect" href="{{ fontHost }}" crossorigin />
+    <link href="{{ fontCss }}" rel="stylesheet" />
+    {%- else %}
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="dns-prefetch" href="https://api.fontshare.com" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+      rel="stylesheet"
+    />
+    {%- endif %}
+    <link rel="stylesheet" href="/styles/{{ stylesheet }}.css" />
+    {% include "analytics.liquid" %}
+    {% include "seo-meta.liquid" %}
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
