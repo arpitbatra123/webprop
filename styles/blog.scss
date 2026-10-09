@@ -1,31 +1,17 @@
 @use "reset";
 @use "variables";
+@use "base";
 
 body {
-  font-family: "Satoshi", sans-serif;
   text-align: center;
-  background-color: variables.$color-background;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  ol {
-    display: flex;
-    flex-direction: row;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    margin: 1rem;
-  }
+header h1 {
+  margin: 1rem;
 }
 
 main {
   max-width: 60ch;
-  margin: 0 auto;
   li + li {
     margin-top: 0.5rem;
   }

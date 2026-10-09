@@ -1,0 +1,22 @@
+// Shared by the home, blog, and blog post pages
+@use "variables";
+
+body {
+  font-family: "Satoshi", sans-serif;
+  background-color: variables.$color-background;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+main {
+  margin: 0 auto;
+}
