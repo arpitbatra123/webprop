@@ -12,9 +12,9 @@
     <link href="{{ fontCss }}" rel="stylesheet" />
     {%- else %}
     <link rel="preconnect" href="https://api.fontshare.com" />
-    <link rel="dns-prefetch" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
     <link
-      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400,401,700,701&display=swap"
       rel="stylesheet"
     />
     {%- endif %}
