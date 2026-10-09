@@ -18,9 +18,9 @@ export default async function (eleventyConfig) {
       return Date.now() - new Date(date).getTime() > thresholdMs;
     });
 
-    // Watch CSS files for changes
-    eleventyConfig.setBrowserSyncConfig({
-      files: "./_site/styles/**/*.css",
+    // Reload the dev server when Sass writes new CSS
+    eleventyConfig.setServerOptions({
+      watch: ["_site/styles/**/*.css"],
     });
     eleventyConfig.addPassthroughCopy("assets");
 
