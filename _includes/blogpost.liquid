@@ -1,47 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content="{{ eleventy.generator }}">
-    <title>{{ title }}</title>
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
-    <link rel="icon" href="/assets/images/site-favicon.svg" type="image/x-icon" />
-    <link rel="preconnect" href="https://api.fontshare.com" />
-    <link rel="dns-prefetch" href="https://api.fontshare.com" />
-    <link
-      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles/blogpost.css" />
-    {% include "analytics.liquid" %}
-    {% include "seo-meta.liquid" %}
-  </head>
-  <body>
-    <header>
-      <h2>Arpit Batra's <a href="/blog"> Blog</a></h2>
-      <h1>{{ title }}</h1>
-      <div class="post-meta">
-        <div class="post-date">{{ date | date : "%b %d %Y" }}</div>
-        {% if updatedAt %}
-        <span class="date-spacer">•</span>
-        <div class="post-updated-date">
-          <span>Updated</span>
-          <time dateTime="{{ updatedAt | date : "%b %d %Y" }}">{{ updatedAt | date : "%b %d %Y" }}</time>
-        </div>
-        {% endif %}
-      </div>
-      {% if date | isOlderThanYears %}
-      <aside class="post-age-warning" role="note">
-        This post is more than {{ warningThresholdYears }} years old. Some details, opinions, or context may be out of date.
-      </aside>
-      {% endif %}
-    </header>
-    <main id="main" role="main">
-      {{ content }}
-    </main>
-    <footer>
-    </footer>
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-  </body>
-</html>
+---
+layout: base.liquid
+stylesheet: blogpost
+---
+
+<header>
+  <h2>Arpit Batra's <a href="/blog"> Blog</a></h2>
+  <h1>{{ title }}</h1>
+  <div class="post-meta">
+    <time class="post-date" datetime="{{ date | date: "%Y-%m-%d" }}">{{ date | date: "%b %d %Y" }}</time>
+    {% if updatedAt %}
+    <span class="date-spacer">•</span>
+    <div class="post-updated-date">
+      <span>Updated</span>
+      <time datetime="{{ updatedAt | date: "%Y-%m-%d" }}">{{ updatedAt | date: "%b %d %Y" }}</time>
+    </div>
+    {% endif %}
+  </div>
+  {% if date | isOlderThanYears %}
+  <aside class="post-age-warning" role="note">
+    This post is more than {{ warningThresholdYears }} years old. Some details, opinions, or context may be out of date.
+  </aside>
+  {% endif %}
+</header>
+<main id="main">
+  {{ content }}
+</main>
+<footer>
+</footer>
