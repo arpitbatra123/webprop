@@ -9,12 +9,13 @@ header {
   }
 
   h2 {
-    color: brown;
+    color: variables.$color-muted;
+    font-weight: 400;
   }
 
   .post-meta {
     display: flex;
-    color: variables.$color-text;
+    color: variables.$color-muted;
     .date-spacer {
       margin: 0 0.5rem;
     }

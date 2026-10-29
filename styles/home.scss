@@ -18,7 +18,7 @@ header {
     gap: 1rem;
 
     a {
-      color: variables.$color-primary;
+      color: variables.$color-ink;
       text-decoration: none;
     }
   }
@@ -33,7 +33,7 @@ main {
     }
     figcaption {
       margin: 0.4rem;
-      color: variables.$color-text;
+      color: variables.$color-muted;
     }
   }
 }
