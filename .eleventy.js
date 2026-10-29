@@ -71,7 +71,7 @@ export default async function (eleventyConfig) {
 
   markdownEngine.use(
     await Shiki({
-      theme: "everforest-dark",
+      theme: "github-light-default",
     })
   );
 

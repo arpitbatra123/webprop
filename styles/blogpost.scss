@@ -75,8 +75,10 @@ video {
   margin-top: 1rem;
 }
 
-// for code snippets
+// Code blocks
 .shiki {
   padding: 2rem;
-  border-radius: 6px;
+  border: 1px solid $color-border;
+  // Long lines scroll inside the block, not the page
+  overflow-x: auto;
 }
