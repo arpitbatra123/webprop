@@ -1,54 +1,42 @@
+// Homepage and 404
 @use "reset";
-@use "variables";
+@use "variables" as *;
 @use "base";
 
 body {
   text-align: center;
 }
 
-header {
-  h1 {
-    margin: 1rem;
-  }
-
-  .links {
-    display: flex;
-    justify-content: flex-end;
-    width: 200px;
-    gap: 1rem;
-
-    a {
-      color: variables.$color-ink;
-      text-decoration: none;
-    }
-  }
-}
-
 main {
   max-width: 80ch;
-  .profile {
-    width: 100%;
-    max-width: 16rem;
-    img {
-      border-radius: 4px;
-    }
-    figcaption {
-      margin: 0.4rem;
-      color: variables.$color-muted;
-    }
-  }
 }
 
+// Photo and intro, side by side
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media (max-width: variables.$breakpoint-md) {
+.profile {
+  width: 100%;
+  max-width: 16rem;
+}
+
+.profile img {
+  border-radius: 4px;
+}
+
+.profile figcaption {
+  margin: 0.4rem;
+  color: $color-muted;
+}
+
+@media (max-width: $breakpoint-md) {
   main {
     max-width: 30ch;
   }
+
   .hero {
     flex-direction: column;
   }

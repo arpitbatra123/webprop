@@ -1,68 +1,65 @@
+// A single post
 @use "reset";
-@use "variables";
+@use "variables" as *;
 @use "base";
-
-header {
-  h1 {
-    margin: 0.5rem 1rem 0rem 1rem;
-    text-align: center;
-  }
-
-  h2 {
-    color: variables.$color-muted;
-    font-weight: 400;
-  }
-
-  .post-meta {
-    display: flex;
-    color: variables.$color-muted;
-    .date-spacer {
-      margin: 0 0.5rem;
-    }
-  }
-
-  .post-age-warning {
-    margin: 1.25rem 0 0;
-    padding: 0.15rem 0 0.15rem 1rem;
-    border-left: 2px solid variables.$color-border;
-    color: variables.$color-muted;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    text-align: left;
-    font-style: italic;
-  }
-
-  .post-date {
-    font-size: 1rem;
-  }
-}
 
 main {
   max-width: 60ch;
 }
 
-footer {
-  text-align: center;
-  margin: 1rem;
+// Title, date and the old-post note, centred
+main > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (max-width: variables.$breakpoint-md) {
+main > header h1 {
+  margin: 0.5rem 1rem 0;
+  text-align: center;
+}
+
+.post-meta {
+  display: flex;
+  color: $color-muted;
+}
+
+.date-spacer {
+  margin: 0 0.5rem;
+}
+
+.post-age-warning {
+  margin-top: 1.25rem;
+  padding: 0.15rem 0 0.15rem 1rem;
+  border-left: 2px solid $color-border;
+  color: $color-muted;
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+// On small screens the title sits left, with the text
+@media (max-width: $breakpoint-md) {
   main {
-    max-width: 30ch;
-    margin: 1rem;
-  }
-  header {
-    align-items: unset;
-    margin: 1rem;
-    h1 {
-      margin: 0.2rem 0 0.1rem 0;
-      text-align: unset;
-    }
+    padding: 0 1rem;
   }
 
-  .post-meta {
-    margin: 0rem;
+  main > header {
+    align-items: stretch;
+    margin: 1rem 0;
   }
+
+  main > header h1 {
+    margin: 0.2rem 0 0.1rem;
+    text-align: left;
+  }
+}
+
+// Post content
+main ul,
+main ol {
+  list-style: unset;
+  margin: 1em;
 }
 
 // Improve this later
@@ -82,11 +79,4 @@ video {
 .shiki {
   padding: 2rem;
   border-radius: 6px;
-}
-
-// List items
-ul,
-ol {
-  list-style: unset;
-  margin: 1em;
 }

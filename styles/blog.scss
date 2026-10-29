@@ -1,45 +1,35 @@
+// Blog: list of posts
 @use "reset";
-@use "variables";
+@use "variables" as *;
 @use "base";
-
-body {
-  text-align: center;
-}
-
-header h1 {
-  margin: 1rem;
-}
 
 main {
   max-width: 60ch;
-  li + li {
-    margin-top: 0.5rem;
-  }
-
-  .posts {
-    text-align: left;
-    .post {
-      &-date {
-        font-size: 12px;
-        color: variables.$color-muted;
-      }
-
-      &-title {
-        font-size: 24px;
-        a {
-          text-decoration: none;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-  }
 }
 
-@media (max-width: variables.$breakpoint-md) {
+.posts li + li {
+  margin-top: 0.5rem;
+}
+
+.post-title {
+  font-size: 24px;
+}
+
+.post-title a {
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  font-size: 12px;
+  color: $color-muted;
+}
+
+@media (max-width: $breakpoint-md) {
   main {
-    max-width: 30ch;
-    margin: 1rem;
+    padding: 0 1rem;
   }
 }

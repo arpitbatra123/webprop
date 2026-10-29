@@ -22,6 +22,8 @@ export default async function (eleventyConfig) {
     sameAs: [
       "https://github.com/arpitbatra123",
       "https://www.linkedin.com/in/arpitbatra123",
+      "https://www.instagram.com/arpitbatra123/",
+      "https://www.youtube.com/@arpitbatra123",
     ],
   }));
 

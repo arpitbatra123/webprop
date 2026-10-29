@@ -1,23 +1,77 @@
-// Shared by the home, blog, and blog post pages
-@use "variables";
+// Shared by every page except Best of 22
+@use "variables" as *;
 
 body {
   font-family: "Satoshi", sans-serif;
-  background-color: variables.$color-background;
-  color: variables.$color-ink;
+  background-color: $color-background;
+  color: $color-ink;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-
-  h1 {
-    font-size: 2.5rem;
-  }
+h1 {
+  font-size: 2.5rem;
 }
 
 main {
   margin: 0 auto;
+}
+
+// Header: my name, with a row of links under it
+.site-header {
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 0;
+  text-align: center;
+}
+
+.site-name {
+  display: block;
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 700;
+  color: $color-ink;
+  text-decoration: none;
+}
+
+// Footer
+.site-footer {
+  max-width: calc(60ch + 2rem);
+  margin: 2rem auto 0;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+// Link rows in the header and footer
+.site-header ul,
+.site-footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+}
+
+.site-header ul a,
+.site-footer ul a {
+  color: $color-muted;
+  text-decoration: none;
+}
+
+.site-header ul a:hover,
+.site-footer ul a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+// The page you're on
+.site-header [aria-current="page"] {
+  color: $color-ink;
+}
+
+// Hidden on screen, still read by screen readers and search engines
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }

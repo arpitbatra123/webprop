@@ -25,7 +25,13 @@
     {% include "seo-meta.liquid" %}
   </head>
   <body>
+    {%- unless standalone %}
+    {% include "site-header.liquid" %}
+    {%- endunless %}
     {{ content }}
+    {%- unless standalone %}
+    {% include "footer.liquid" %}
+    {%- endunless %}
     {%- if content contains "codepen" %}
     <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
     {%- endif %}
