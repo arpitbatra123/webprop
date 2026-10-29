@@ -24,3 +24,19 @@ stylesheet: blogpost
   </header>
   {{ content }}
 </main>
+{%- if content contains 'class="demo' %}
+<script>
+  // Show each demo box's rendered width and padding, and keep it updated
+  for (const demo of document.querySelectorAll(".demo")) {
+    const box = demo.firstElementChild;
+    const size = document.createElement("p");
+    size.className = "demo-size";
+    demo.append(size);
+
+    new ResizeObserver(() => {
+      const padding = getComputedStyle(box).paddingLeft;
+      size.textContent = `Rendered width: ${box.offsetWidth}px (padding: ${padding})`;
+    }).observe(box, { box: "border-box" });
+  }
+</script>
+{%- endif %}

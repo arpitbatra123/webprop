@@ -1,0 +1,48 @@
+// Live demos in posts. Only loaded on pages that have one (see base.liquid).
+@use "variables" as *;
+
+// Live demos of the code above them, with the box's rendered width beside it
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid $color-border;
+}
+
+// Use the browser's default box model, like the post's code does.
+// The reset sets border-box on everything, which would hide the point.
+.demo * {
+  box-sizing: content-box;
+}
+
+// Filled in by the script in blogpost.liquid
+.demo-size {
+  margin: 0;
+  color: $color-muted;
+  font-size: 0.9rem;
+}
+
+// The padding demo switches padding on and off
+.demo-padding-box {
+  animation: demo-padding 3s steps(1) infinite;
+}
+
+@keyframes demo-padding {
+  0% {
+    padding: 0;
+  }
+  50% {
+    padding: 10px;
+  }
+}
+
+// No animation: show the box with padding
+@media (prefers-reduced-motion: reduce) {
+  .demo-padding-box {
+    animation: none;
+    padding: 10px;
+  }
+}

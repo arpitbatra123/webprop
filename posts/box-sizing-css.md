@@ -2,6 +2,7 @@
 title: What is 'box-sizing' in CSS and why should it be 'border-box'?
 description: "Why a 200px box with padding ends up wider than 200px in CSS, and how box-sizing: border-box fixes it."
 date: 2020-07-09 20:30:00 Z
+updatedAt: '2026-10-30'
 tags:
 ---
 
@@ -23,13 +24,15 @@ Then you add some CSS
 
 ```css
 .box {
-  background: #00ff00;
+  background: #9f6756;
   height: 200px;
   width: 200px;
 }
 ```
 
-<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="rNxKyEo" data-pen-title="border-box step 1"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/rNxKyEo"> border-box step 1</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
+<div class="demo">
+  <div style="background: #9f6756; height: 200px; width: 200px;"></div>
+</div>
 
 <br />
 
@@ -54,7 +57,11 @@ Let's also add some styles to the text we just added.
 }
 ```
 
-<p class="codepen" data-height="378" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="NWxzjKw" data-pen-title="border-box step 2"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/NWxzjKw"> border-box step 2</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
+<div class="demo">
+  <div style="background: #9f6756; height: 200px; width: 200px;">
+    <span style="color: white; font-size: 50px;">Hey There!</span>
+  </div>
+</div>
 
 <br />
 
@@ -62,14 +69,18 @@ Cool! That sure does look fine but the text is stuck on the corner. Let's add so
 
 ```css
 .box {
-  background: tomato;
+  background: #9f6756;
   height: 200px;
   width: 200px;
   padding: 10px;
 }
 ```
 
-![](/assets/images/box-sizing-css-border-box-content-box-demo.gif)
+<div class="demo demo-padding" role="img" aria-label="The box is 200px wide with no padding, and 220px wide with 10px of padding">
+  <div class="demo-padding-box" style="background: #9f6756; height: 200px; width: 200px;">
+    <span style="color: white; font-size: 50px;">Hey There!</span>
+  </div>
+</div>
 
 WHAT? The dimensions of the box have changed? What's happening? After furiously digging in the browser's dev tools, you find out the padding value of `10px` is being added to the width and height of the box. The browser is doing this and is just ignoring the width and height you've specified.
 
@@ -85,7 +96,7 @@ Yes, there is. Let us add the `box-sizing` property with a value of `border-box`
 
 ```css
 .box {
-  background: tomato;
+  background: #9f6756;
   height: 200px;
   width: 200px;
   padding: 10px;
@@ -93,7 +104,11 @@ Yes, there is. Let us add the `box-sizing` property with a value of `border-box`
 }
 ```
 
-<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="eYJKWWo" data-pen-title="border-box step 3"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/eYJKWWo"> border-box step 3</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
+<div class="demo">
+  <div style="background: #9f6756; height: 200px; width: 200px; padding: 10px; box-sizing: border-box;">
+    <span style="color: white; font-size: 50px;">Hey There!</span>
+  </div>
+</div>
 
 <br />
 

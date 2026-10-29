@@ -18,6 +18,9 @@
     />
     {%- endif %}
     <link rel="stylesheet" href="/styles/{{ stylesheet }}.css" />
+    {%- if content contains 'class="demo' %}
+    <link rel="stylesheet" href="/styles/demo.css" />
+    {%- endif %}
     {%- unless standalone %}
     {% include "theme-script.liquid" %}
     {%- endunless %}
@@ -35,7 +38,7 @@
     {%- unless standalone %}
     {% include "footer.liquid" %}
     {%- endunless %}
-    {%- if content contains "codepen" %}
+    {%- if content contains 'class="codepen"' %}
     <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
     {%- endif %}
   </body>
