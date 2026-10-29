@@ -3,8 +3,8 @@ $breakpoint-sm: 640px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 1024px;
 
-// Colors
-$color-ink: #1c1b1a;
-$color-muted: #6f6c66;
-$color-border: #e2ded8;
-$color-background: #ffffff;
+// Colors are CSS variables, set in _base.scss, so they can change with the theme
+$color-ink: var(--color-ink);
+$color-muted: var(--color-muted);
+$color-border: var(--color-border);
+$color-background: var(--color-background);

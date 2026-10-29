@@ -1,0 +1,47 @@
+<script>
+  // Theme: "auto" follows the system setting, "light" or "dark" is a saved choice.
+  // Runs in <head> so the page never flashes the wrong colours.
+  (() => {
+    const root = document.documentElement;
+    const systemDark = matchMedia("(prefers-color-scheme: dark)");
+    const next = { auto: "light", light: "dark", dark: "auto" };
+
+    function choice() {
+      try {
+        return localStorage.getItem("theme") || "auto";
+      } catch {
+        return "auto";
+      }
+    }
+
+    function apply() {
+      const current = choice();
+      const dark = current === "dark" || (current === "auto" && systemDark.matches);
+      root.dataset.theme = dark ? "dark" : "light";
+
+      // The button shows the current choice
+      const button = document.querySelector(".theme-switch");
+      if (!button) return;
+      button.hidden = false;
+      button.dataset.choice = current;
+      button.querySelector(".theme-switch-label").textContent = current;
+      button.setAttribute("aria-label", `Theme: ${current}. Switch to ${next[current]}`);
+    }
+
+    function cycle() {
+      const value = next[choice()];
+      try {
+        if (value === "auto") localStorage.removeItem("theme");
+        else localStorage.setItem("theme", value);
+      } catch {}
+      apply();
+    }
+
+    apply();
+    systemDark.addEventListener("change", apply);
+    document.addEventListener("DOMContentLoaded", () => {
+      apply();
+      document.querySelector(".theme-switch")?.addEventListener("click", cycle);
+    });
+  })();
+</script>

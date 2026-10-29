@@ -1,4 +1,12 @@
 <header class="site-header">
+  {%- comment %} Hidden until the theme script runs {% endcomment %}
+  <button class="theme-switch" type="button" hidden>
+    <svg viewBox="0 0 20 20" aria-hidden="true">
+      <path d="M10 2a8 8 0 0 0 0 16z" />
+      <circle cx="10" cy="10" r="8" />
+    </svg>
+    <span class="theme-switch-label"></span>
+  </button>
   {%- if page.url == "/" %}
   <h1 class="site-name">Arpit Batra</h1>
   {%- else %}

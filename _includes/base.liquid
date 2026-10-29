@@ -18,6 +18,9 @@
     />
     {%- endif %}
     <link rel="stylesheet" href="/styles/{{ stylesheet }}.css" />
+    {%- unless standalone %}
+    {% include "theme-script.liquid" %}
+    {%- endunless %}
     {%- if page.url == "/" %}
     <script type="application/ld+json">{{ person | json }}</script>
     {%- endif %}

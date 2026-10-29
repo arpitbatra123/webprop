@@ -71,7 +71,12 @@ export default async function (eleventyConfig) {
 
   markdownEngine.use(
     await Shiki({
-      theme: "github-light-default",
+      // Both themes go into CSS variables; blogpost.scss picks one
+      themes: {
+        light: "github-light-default",
+        dark: "github-dark-default",
+      },
+      defaultColor: false,
     })
   );
 

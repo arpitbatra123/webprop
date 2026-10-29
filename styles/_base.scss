@@ -1,6 +1,23 @@
 // Shared by every page except Best of 22
 @use "variables" as *;
 
+// Light colours by default, dark ones when the theme script sets data-theme="dark"
+:root {
+  color-scheme: light;
+  --color-ink: #1c1b1a;
+  --color-muted: #6f6c66;
+  --color-border: #e2ded8;
+  --color-background: #ffffff;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-ink: #ded9cc;
+  --color-muted: #8f8c84;
+  --color-border: #3d3a37;
+  --color-background: #262423;
+}
+
 body {
   font-family: "Satoshi", sans-serif;
   background-color: $color-background;
@@ -17,8 +34,10 @@ main {
 
 // Header: my name, with a row of links under it
 .site-header {
+  position: relative;
   margin-bottom: 2rem;
-  padding: 1rem 1rem 0;
+  // Side padding keeps the name and links clear of the theme switch
+  padding: 1rem 2.5rem 0;
   text-align: center;
 }
 
@@ -64,6 +83,74 @@ main {
 // The page you're on
 .site-header [aria-current="page"] {
   color: $color-ink;
+}
+
+// Theme switch, top left. Outline is light, filled is dark, half is auto.
+.theme-switch {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // 24px to tap (WCAG 2.2 target size)
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: $color-ink;
+  font: inherit;
+  cursor: pointer;
+}
+
+.theme-switch svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.theme-switch circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+.theme-switch path {
+  fill: none;
+}
+
+.theme-switch[data-choice="dark"] circle,
+.theme-switch[data-choice="auto"] path {
+  fill: currentColor;
+}
+
+// Names the current choice, on hover or keyboard focus
+.theme-switch-label {
+  position: absolute;
+  left: calc(100% + 0.5rem);
+  white-space: nowrap;
+  color: $color-muted;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+}
+
+.theme-switch:focus-visible .theme-switch-label {
+  opacity: 1;
+}
+
+// Only on devices that really hover; on phones a tap leaves hover stuck on
+@media (hover: hover) {
+  .theme-switch:hover .theme-switch-label {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-switch-label {
+    transition: none;
+  }
 }
 
 // Hidden on screen, still read by screen readers and search engines
