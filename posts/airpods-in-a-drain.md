@@ -1,5 +1,6 @@
 ---
 title: AirPods in a Drain
+description: "An evening bike ride, a phone call, and an AirPod that ended up at the bottom of a drain. Here's how I got it back."
 date: 2025-02-08
 tags:
 ---

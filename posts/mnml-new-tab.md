@@ -1,5 +1,6 @@
 ---
 title: I made a browser extension called mnml new tab
+description: "How I built mnml new tab, a minimal browser extension that shows my bookmarks on the new tab page."
 date: 2020-04-25 00:00:00 Z
 tags:
 - coding

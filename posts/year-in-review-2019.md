@@ -1,5 +1,6 @@
 ---
 title: Year in review 2019
+description: "Looking back on 2019: starting this blog, joining Postman as a product engineer, reading more, and what didn't go well."
 date: 2019-12-31 12:00:00 Z
 tags:
 - prose

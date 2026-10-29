@@ -11,6 +11,20 @@ export default async function (eleventyConfig) {
     url: siteUrl,
   }));
 
+  // Homepage Person JSON-LD
+  eleventyConfig.addGlobalData("person", () => ({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${siteUrl}/#person`,
+    name: "Arpit Batra",
+    url: `${siteUrl}/`,
+    jobTitle: "Documentation Engineer",
+    sameAs: [
+      "https://github.com/arpitbatra123",
+      "https://www.linkedin.com/in/arpitbatra123",
+    ],
+  }));
+
   const warningThresholdYears = 3;
   eleventyConfig.addGlobalData("warningThresholdYears", warningThresholdYears);
 

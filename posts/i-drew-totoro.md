@@ -1,5 +1,6 @@
 ---
 title: I Drew Totoro
+description: "During the 2020 lockdown I tried drawing for the first time. Here's my attempt at Totoro."
 date: 2020-04-11 00:00:00 Z
 tags:
 ---

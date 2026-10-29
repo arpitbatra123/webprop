@@ -1,5 +1,6 @@
 ---
 title: Wisdom Tooth Extraction
+description: "Getting my wisdom tooth pulled, and the thoughts that went through my head in the dentist's chair."
 date: 2022-08-23 15:30:00 Z
 tags:
 ---

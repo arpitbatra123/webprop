@@ -1,5 +1,6 @@
 ---
 title: My Career Journey
+description: "From the school computer lab to a globally remote writing role: how my career has gone so far, and what I've learned."
 date: 2026-03-15
 tags:
 ---

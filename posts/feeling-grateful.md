@@ -1,5 +1,6 @@
 ---
 title: Feeling Grateful
+description: "Struggling to settle into a new job and city, and how a video of a 63-year-old ice cream seller changed how I saw it."
 date: 2019-05-26 00:00:00 Z
 tags:
 ---

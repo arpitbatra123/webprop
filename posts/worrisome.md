@@ -1,5 +1,6 @@
 ---
 title: Worrisome
+description: "A handwritten note on why people who worry a lot can't fully enjoy being happy."
 date: 2020-02-01 00:00:00 Z
 tags:
 ---

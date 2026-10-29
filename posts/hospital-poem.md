@@ -1,5 +1,6 @@
 ---
 title: A Hospital is a Strange Place
+description: "A poem about a day in a hospital: busy corridors, worried faces, and finding hope where there's little else."
 date: 2019-09-23 00:00:00 Z
 tags:
 ---

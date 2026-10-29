@@ -1,5 +1,6 @@
 ---
 title: Impending Emotional Turmoil
+description: "A short piece comparing emotional turmoil to the first drop of rain you choose to ignore."
 date: 2020-06-06 00:00:00 Z
 tags:
 ---

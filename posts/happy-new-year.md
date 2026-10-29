@@ -1,5 +1,6 @@
 ---
 title: Happy New Year 2019
+description: "New Year's Eve 2019 on my rooftop: cold wind, early crackers, and a rangoli drawn on the street by neighbours."
 date: 2019-12-31 00:00:00 Z
 tags:
 ---

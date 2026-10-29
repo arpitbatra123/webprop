@@ -1,4 +1,7 @@
 {
   "layout": "blogpost.liquid",
-  "tags": "posts"
+  "tags": "posts",
+  "eleventyComputed": {
+    "seoTitle": "{% if title %}{{ title }} | Arpit Batra{% endif %}"
+  }
 }

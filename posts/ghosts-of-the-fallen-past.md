@@ -1,5 +1,6 @@
 ---
 title: Ghosts of the fallen past
+description: "Hunting for an old British military cemetery in Mussoorie, and what I found among its graves."
 date: 2021-01-10 16:18:00 Z
 tags:
 - life

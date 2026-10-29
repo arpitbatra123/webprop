@@ -1,5 +1,6 @@
 ---
 title: 30 days of Running
+description: "In February 2018, a month after my resolutions fell apart, I set myself a running challenge to turn things around."
 date: 2018-02-17 00:00:00 Z
 tags:
 ---

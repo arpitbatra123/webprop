@@ -1,5 +1,6 @@
 ---
 title: Lyrics That Go Beyond Words
+description: "Songs whose lyrics stay with me after the music ends, with English translations of the non-English ones and a Spotify playlist."
 date: 2019-12-08 00:00:00 Z
 updatedAt: '2020-05-10'
 tags:

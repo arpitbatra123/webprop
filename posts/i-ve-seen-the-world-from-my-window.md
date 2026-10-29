@@ -1,5 +1,6 @@
 ---
 title: I’ve seen the world from my window
+description: "An unfinished poem about everything I've watched from my bedroom window: rain, birds, empty roads and sunrises."
 date: 2021-03-11 15:30:00 Z
 tags:
 ---

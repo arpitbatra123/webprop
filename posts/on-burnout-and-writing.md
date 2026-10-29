@@ -1,5 +1,6 @@
 ---
 title: On Burnout and Writing
+description: "Quitting my job after a month of severe burnout, what comes next, and why I want to write more."
 date: 2022-03-23 11:48:00 Z
 tags: []
 ---

@@ -1,5 +1,6 @@
 ---
 title: Computer Shenanigans
+description: "Skipping exam prep to poke at a website's security, finding a remote code execution bug, and what happened next."
 date: 2017-11-26 00:00:00 Z
 tags:
 ---

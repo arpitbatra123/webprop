@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content="{{ eleventy.generator }}" />
-    <title>{{ title | default: "Arpit Batra" }}</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link rel="icon" href="/assets/images/site-favicon.svg" type="image/svg+xml" />
     {%- if fontCss %}
@@ -19,6 +18,9 @@
     />
     {%- endif %}
     <link rel="stylesheet" href="/styles/{{ stylesheet }}.css" />
+    {%- if page.url == "/" %}
+    <script type="application/ld+json">{{ person | json }}</script>
+    {%- endif %}
     {% include "analytics.liquid" %}
     {% include "seo-meta.liquid" %}
   </head>

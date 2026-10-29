@@ -1,5 +1,6 @@
 ---
 title: Replacing lodash.get with Nullish Coalescing and Optional Chaining
+description: "lodash.get safely reads nested values. Optional chaining and nullish coalescing now do the same in plain JavaScript."
 date: 2019-12-15 00:00:00 Z
 tags:
 ---

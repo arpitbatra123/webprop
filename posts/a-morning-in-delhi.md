@@ -1,5 +1,6 @@
 ---
 title: A Morning in Delhi
+description: "The sounds of a Delhi summer morning at 4 AM, prayers from a nearby gurudwara, and the school-day memories they bring back."
 date: 2022-03-03 00:00:00 Z
 tags:
 ---

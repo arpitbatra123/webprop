@@ -1,5 +1,6 @@
 ---
 title: Painting is fun
+description: "My first try at watercolour painting, following a beginner YouTube landscape tutorial, and my second attempt."
 date: 2020-08-21 00:00:00 Z
 updatedAt: '2020-08-21'
 tags:

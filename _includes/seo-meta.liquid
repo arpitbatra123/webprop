@@ -1,15 +1,19 @@
-{%- assign seo_title = title | default: "Arpit Batra" -%}
-{%- assign seo_description = description | default: "The personal website and blog of Arpit Batra" -%}
-{%- assign seo_url = site.url | append: page.url -%}
+{%- assign seo_title = seoTitle | default: title | default: "Arpit Batra" | escape -%}
+{%- assign seo_description = description | default: "The personal website and blog of Arpit Batra" | escape -%}
+{%- assign seo_type = "website" -%}
+{%- if tags contains "posts" -%}{%- assign seo_type = "article" -%}{%- endif -%}
+{%- assign seo_path = canonical | default: page.url -%}
+{%- assign seo_url = site.url | append: seo_path -%}
 {%- assign seo_image = site.url | append: "/assets/images/og-arpit-batra.png" -%}
 
+<title>{{ seo_title }}</title>
 <meta name="description" content="{{ seo_description }}">
 <link rel="canonical" href="{{ seo_url }}">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ seo_title }}">
 <meta property="og:description" content="{{ seo_description }}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ seo_type }}">
 <meta property="og:url" content="{{ seo_url }}">
 <meta property="og:image" content="{{ seo_image }}">
 <meta property="og:image:type" content="image/png">

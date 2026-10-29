@@ -1,5 +1,6 @@
 ---
 title: Rooftop
+description: "A short poem about a moonlit rooftop, a distant silhouette, and someone who left."
 date: 2020-09-11 18:30:00 Z
 tags:
 - poetry

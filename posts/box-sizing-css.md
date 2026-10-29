@@ -1,5 +1,6 @@
 ---
 title: What is 'box-sizing' in CSS and why should it be 'border-box'?
+description: "Why a 200px box with padding ends up wider than 200px in CSS, and how box-sizing: border-box fixes it."
 date: 2020-07-09 20:30:00 Z
 tags:
 ---

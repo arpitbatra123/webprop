@@ -1,5 +1,6 @@
 ---
 title: The importance of web accessibility
+description: "A metro station staircase made me rethink who the web leaves out, and why web accessibility matters."
 date: 2020-10-08 18:30:00 Z
 tags:
 ---

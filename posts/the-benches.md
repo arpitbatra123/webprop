@@ -1,5 +1,6 @@
 ---
 title: The Benches
+description: "A run that ended at a row of roadside benches, and the small things I noticed while catching my breath."
 date: 2025-02-07
 tags:
 ---

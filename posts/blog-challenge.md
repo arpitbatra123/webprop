@@ -1,5 +1,6 @@
 ---
 title: Blog Questions Challenge
+description: "My answers to the blog questions challenge: why I started blogging, and how this blog is built."
 date: 2025-03-20
 tags:
 ---

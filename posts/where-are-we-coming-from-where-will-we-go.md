@@ -1,5 +1,6 @@
 ---
 title: 'Where are we coming from? Where will we go? '
+description: "Reading my great-grandfather Sevak Raam Yatri's autobiography, and what his life taught me about legacy."
 date: 2021-02-08 16:36:00 Z
 tags: []
 ---
