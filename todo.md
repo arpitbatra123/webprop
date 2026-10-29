@@ -20,8 +20,10 @@ Plan from 2026-09-28: make arpit.tk the clear home for the developer named Arpit
 
 ### Discovery
 
-- [ ] `sitemap.xml` generated in Eleventy from the page collection: absolute URLs for home, blog, projects and posts. No 404, feed or duplicate redirects. `lastmod` only when content really changed. Publish the projects page before listing it.
-- [ ] `robots.txt` (`User-agent: *`, `Allow: /`, `Sitemap: https://arpit.tk/sitemap.xml`). Check both with `curl -I` and `curl -L` on Vercel.
+- [x] `sitemap.xml` generated in Eleventy from the page collection: absolute URLs for home, blog, projects and posts. No 404, feed or duplicate redirects. `lastmod` only when content really changed. Publish the projects page before listing it.
+  - Home, blog, Best of 22 and posts are in. `lastmod` is the post date, posts only. Projects goes in automatically once the page exists.
+- [x] `robots.txt` (`User-agent: *`, `Allow: /`, `Sitemap: https://arpit.tk/sitemap.xml`). Check both with `curl -I` and `curl -L` on Vercel.
+  - Still to check both on Vercel after the next deploy.
 - [ ] Verify the domain in Search Console, submit the sitemap, inspect home, projects and case studies
 - [ ] Baseline the query "Arpit Batra" (country, pages, impressions, clicks, CTR, position) and take dated SERP snapshots on desktop and mobile
 - [ ] Review at 2, 6 and 12 weeks. Use the pages and queries data to fix weak titles, internal links and project content.

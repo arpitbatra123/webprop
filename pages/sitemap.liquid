@@ -1,0 +1,19 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in collections.all %}
+{%- comment %} Skip non-page files like the feed, and pages that point their canonical elsewhere {% endcomment %}
+{%- assign last_char = item.url | slice: -1 %}
+{%- if last_char != "/" %}{% continue %}{% endif %}
+{%- if item.data.canonical and item.data.canonical != item.url %}{% continue %}{% endif %}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    {%- if item.data.tags contains "posts" %}
+    <lastmod>{{ item.date | date: "%Y-%m-%d" }}</lastmod>
+    {%- endif %}
+  </url>
+{%- endfor %}
+</urlset>

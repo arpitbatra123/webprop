@@ -38,6 +38,7 @@ export default async function (eleventyConfig) {
     watch: ["_site/styles/**/*.css"],
   });
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.ignores.add("todo.md");
 
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom", // or "rss", "json"
