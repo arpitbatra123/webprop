@@ -1,8 +1,0 @@
-todo:
-- projects
-- social links - mail, github, feed, goodreads
-
-done:
-- meta tags, images
-- rss feed
-- favicon
