@@ -31,13 +31,10 @@ And this will work and output the name `Bojack`. No Worries, Right?
 
 Well, for the most part, it is. Let me explain. Say, for example, this object is a response from an API and because the coding gods are angry on you, the object has a structure different from what you think it will be. The key `options` in the `data` object is now called `user_options` and the code you've written does not account for that. Now if you run the code to get the value of name this is what will happen:
 
-<!-- TODO(arpit): the example after "this is what will happen:" is missing, and was missing on arpit.tk in 2021 too.
-Suggestion, rewrite or delete:
 ```js
 const name = response.data.options.name;
 // TypeError: Cannot read properties of undefined (reading 'name')
 ```
--->
 
 Since `data.options` is `undefined` and you are trying to access the `name` property of `undefined`, you end up with a `TypeError`.
 
