@@ -6,7 +6,7 @@ updatedAt: '2026-11-06'
 tags:
 ---
 
-> TLDR: By default, css adds padding and border values to the width and height of your elements. A 200px wide box with 10px padding will have an effective width of 220px. Use `box-sizing: border-box;` to prevent this.
+> TLDR: By default, CSS adds padding and border values to the width and height of your elements. A 200px wide box with 10px padding will have an effective width of 220px. Use `box-sizing: border-box;` to prevent this.
 
 Imagine yourself embarking on a journey towards learning front-end web development. You are pretty excited as you should be! One day, you will turn beautiful designs into code.
 
@@ -84,7 +84,7 @@ Cool! That sure does look fine but the text is stuck on the corner. Let's add so
 
 WHAT? The dimensions of the box have changed? What's happening? After furiously digging in the browser's dev tools, you find out the padding value of `10px` is being added to the width and height of the box. The browser is doing this and seems to be ignoring the width and height you've specified.
 
-So you have to calculate the actual width of all boxes in your brain now. You get anxiety by thinking of all the math you will have to do from now on. If you are somewhat like me, you are wanting to just quit and get back to browsing twitter or watching **#productivity** videos on youtube. You are also thinking of transitioning to learning back end development where at least the code you write will be respected and the language won't do any magic on its own. (This is far from the truth, but you don't know that yet)
+So you have to calculate the actual width of all boxes in your brain now. You get anxiety by thinking of all the math you will have to do from now on. If you are somewhat like me, you are wanting to just quit and get back to browsing Twitter or watching **#productivity** videos on YouTube. You are also thinking of transitioning to learning back end development where at least the code you write will be respected and the language won't do any magic on its own. (This is far from the truth, but you don't know that yet)
 
 All of your feelings are valid. At this point, you might start to not like CSS so much.
 
@@ -118,7 +118,7 @@ How did this work? Well, by default, all elements have the value `content-box` f
 
 You want `border-box` to be the default value for all elements to eradicate the frustration you were dealing with a few minutes ago! This can be done easily by using universal selectors in CSS.
 
-Here is how this css-tricks [article](https://css-tricks.com/box-sizing/) recommends we do it at a global level:
+Here is how this CSS-Tricks [article](https://css-tricks.com/box-sizing/) recommends we do it at a global level:
 
 ```css
 html {

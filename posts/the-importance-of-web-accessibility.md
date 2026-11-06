@@ -22,7 +22,7 @@ Let me now give you some reasons why I have started caring about accessibility:
 
 ## #1 Accessibility empowers all users
 
-The role of technology is to take humanity to the next level. The invention of the World Wide Web is the driving force for that. The internet has made a student in a remote city in India learn from the best Entrepreneurs in Silicon Valley. But when we don't think of accessibility, a lot of people with disabilities are unable to reap the benefits of the web.
+The role of technology is to take humanity to the next level. The invention of the World Wide Web is the driving force for that. The internet has made a student in a remote city in India learn from the best entrepreneurs in Silicon Valley. But when we don't think of accessibility, a lot of people with disabilities are unable to reap the benefits of the web.
 
 > Technology is meant to empower people, and inaccessible interfaces leave disabled users feeling powerless
 
@@ -32,7 +32,7 @@ The role of technology is to take humanity to the next level. The invention of t
 
 The internet has brought about an information revolution but what good is a revolution which leaves a lot of people out deliberately?
 
-As Software Engineers, we like to think that we are “Changing the world” but not all of these changes are positive. See this tweet by the user LareneLg for an example of the adverse effects of an inaccessible web:
+As software engineers, we like to think that we are “Changing the world” but not all of these changes are positive. See this tweet by the user LareneLg for an example of the adverse effects of an inaccessible web:
 
 https://twitter.com/LareneLg/status/1270578058714443776
 
@@ -52,18 +52,18 @@ Due to the tweets you read in the previous point, you must be thinking that acce
 
 ![The contrast in the Windows (and I assume other platforms) client is too low, it is killing my eyes. Grey on black or grey on white does not provide enough contrast between text and background. The whole application has a kind of permanently 'disabled' look to it, which it makes it painful to use for extended periods of time. The text needs to be darker in the light theme and lighter in the dark theme. Same for element borders, etc.](/assets/images/the-importance-of-web-accessibility-screenshot.png)
 
-Color Contrast is one of the things we need to make sure while designing interfaces, as we can see clearly (pun intended), people with good vision can also be adversely affected if we don't incorporate accessibility in design.
+Color contrast is one of the things we need to make sure while designing interfaces, as we can see clearly (pun intended), people with good vision can also be adversely affected if we don't incorporate accessibility in design.
 
 ## #4 Accessibility encourages best practices
 
 Some techniques which are useful for making the web usable also bring in some added benefits. For example, if you write HTML that follows proper semantics, you also reap some benefits in the form of SEO as the search crawlers can extract proper headings from your pages.
 
-If Accessibility is taken care of in the design step itself, then it can enhance the experience of other users as well. For example, if colors that have good contrast are chosen for the designs, even sighted users will benefit from avoiding strain while reading.
+If accessibility is taken care of in the design step itself, then it can enhance the experience of other users as well. For example, if colors that have good contrast are chosen for the designs, even sighted users will benefit from avoiding strain while reading.
 
-## #5 Accessibility saves your company from Lawsuits
+## #5 Accessibility saves your company from lawsuits
 
 Don't believe me? [See](https://www.cnbc.com/2019/10/07/dominos-supreme-court.html "https://www.cnbc.com/2019/10/07/dominos-supreme-court.html") for yourself.
 
 ## Closing thoughts
 
-I hope I was able to open your mind to how important accessibility on the web is. Your next steps from here should be how to incorporate accessibility during development and design. Do remember that small steps towards accessibility can make a big difference. Awareness is the first step, Action the second. The web is full of information on how you can write code that makes sure interfaces on the web are accessible. In the upcoming weeks, I am planning to write some blog posts with quick tips that can help you with accessibility.
+I hope I was able to open your mind to how important accessibility on the web is. Your next steps from here should be how to incorporate accessibility during development and design. Do remember that small steps towards accessibility can make a big difference. Awareness is the first step, action the second. The web is full of information on how you can write code that makes sure interfaces on the web are accessible. In the upcoming weeks, I am planning to write some blog posts with quick tips that can help you with accessibility.

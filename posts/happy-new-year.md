@@ -27,11 +27,11 @@ Some people have already started bursting crackers, people can be so impatient.
 
 I seemed to be okay with not having any plans for new years but seeing people dancing away at the clubs made me a little sad.
 
-It is kinda fun though. Cool Winds. The faint rustling of leaves and the even fainter noise of the music which must be playing at a nearby club. If this is not peace, then what is?
+It is kinda fun though. Cool winds. The faint rustling of leaves and the even fainter noise of the music which must be playing at a nearby club. If this is not peace, then what is?
 
 I came up here because I wanted to be alone with my thoughts to reflect on how my year has been. It’s been a topsy turvy ride actually.
 
-Last New Year, When I was watching firecrackers at midnight with my friends, I could never have imagined that this year would be tremendously different.
+Last New Year, when I was watching firecrackers at midnight with my friends, I could never have imagined that this year would be tremendously different.
 
 What does the next year have in store for me?
 

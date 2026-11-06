@@ -12,9 +12,9 @@ tags:
 
 > end tl;dr
 
-I listen to a lot of different genres of music but songs that have meaningful lyrics are the ones I connect to the most. This post is a collection of sorts of the song lyrics I felt a connect with as they remain relevant long after the music fades down. I've also attempted to translate some of the non-english lyrics to english while trying to maintain their sanctity.
+I listen to a lot of different genres of music but songs that have meaningful lyrics are the ones I connect to the most. This post is a collection of sorts of the song lyrics I felt a connect with as they remain relevant long after the music fades down. I've also attempted to translate some of the non-English lyrics to English while trying to maintain their sanctity.
 
-**💡 Tip : You can click on any lyrics title to listen to the song on Youtube.**
+**💡 Tip : You can click on any lyrics title to listen to the song on YouTube.**
 
 ## [मेरा कुछ सामान](https://www.youtube.com/watch?v=OlvXDGJAMT0) 
 
@@ -26,7 +26,7 @@ I listen to a lot of different genres of music but songs that have meaningful ly
 मेरा वो सामान लौटा दो   
 
 
-In the magical mellow voice of Asha Bhosle, This song is a lyrical marvel by Gulzar.
+In the magical mellow voice of Asha Bhosle, this song is a lyrical marvel by Gulzar.
 
 ## [Inside of love](https://www.youtube.com/watch?v=sW1ZJNVAc-Q)
 
@@ -69,7 +69,7 @@ An age-old story like this is left unsaid.
 
 ## [Sea of dreams](https://www.youtube.com/watch?v=mIDWsTwstgs)
 
-You'll find me In a sea of dreams    
+You'll find me in a sea of dreams    
 Where no one cares about my words   
 
 I heard this song on the TV show **Bojack Horseman**. Upon listening to this song, I was engulfed in a weird cloud of loneliness.
@@ -136,7 +136,7 @@ still, we have to cross it with a smile on our faces.
 > I don't understand Nepali, the language the song is written in, so the below translation is collected from various sources on the internet
 
 I run from my shadows.
-Tell me, How can I be responsible for your shadows?
+Tell me, how can I be responsible for your shadows?
 Don't promise of leaving the world of me.
 It's like this in the beginning
 But, life will eventually catch up to us
@@ -163,7 +163,7 @@ Death reached me before I could start living them.
 
 
 Somewhere we find it impossible to form loving connections
-and Sometimes, without significant effort, we form bonds that could last forever
+and sometimes, without significant effort, we form bonds that could last forever
 
 ## [Empty](https://www.youtube.com/watch?v=SY1V0Y7hscw)
 

@@ -21,7 +21,7 @@ When I reached the store, she was pleased to see her mother. I handed her off to
 
 Her Mom was inspecting the vegetables, and while the shopkeeper was not looking, she picked some vegetables and tossed them in the nearby drain. She's a very mischievous child, and when I scolded her for being so, she laughed back at me like she always does. I went to her and picked her up again because she looked adorable.
 
-There's also a fast food stall beside the Vegetable Vendor, and when I picked her up, she saw it and shouted, "Noodles". I did not pay much attention because I was talking to my friend.
+There's also a fast food stall beside the vegetable vendor, and when I picked her up, she saw it and shouted, "Noodles". I did not pay much attention because I was talking to my friend.
 
 She gets angry when I don't pay attention to her, so she flicked her hand at my ear to try to get my attention. Unfortunately, I was still wearing my AirPods, and when she flicked her hand, an AirPod went flying.
 
@@ -31,13 +31,13 @@ Soon, the little kid's Mom started looking for it, trying to help me.
 
 Let me try to describe the drain. It was just beside a vegetable stall, and the water was pitch black. The flashlights on our phone were not helping much, and the guy running the vegetable shop soon came to help.
 
-I remembered that iPhones can track lost AirPods, so I started up the Find My Phone app. To my delight, it connected to the AirPod despite having a weak signal. I ran the phone on top of the still black sludge of the drain, and my eyes would sparkle whenever the app displayed a strong signal. I tried to "fish" out the AirPods with a stick, but since they were not visible at all, finding them was difficult.
+I remembered that iPhones can track lost AirPods, so I started up the Find My app. To my delight, it connected to the AirPod despite having a weak signal. I ran the phone on top of the still black sludge of the drain, and my eyes would sparkle whenever the app displayed a strong signal. I tried to "fish" out the AirPods with a stick, but since they were not visible at all, finding them was difficult.
 
 By now, some onlookers were curious about what we were doing, and when we told them we were finding an AirPod, most of them told me that it had probably stopped working by now.
 
 Hearing this, the mother of the kid asked me how much it cost, and since I did not remember the price, I said something like 10,000. After saying that, I also realized that this thing was expensive and started looking for it harder. The fact that my phone was still receiving a signal meant it was still there somewhere, and I did not want to give up. Something came over me, and I dipped my bare, raw hands in that disgusting drain, trying to find the AirPod in the general area where the signal was coming from.
 
-I searched for 5 minutes, but it did not turn up. At this point, My hand smelt like hell itself, and I decided to give up. The shopkeeper also gave me a basket to try and filter out some of the sludge,
+I searched for 5 minutes, but it did not turn up. At this point, my hand smelt like hell itself, and I decided to give up. The shopkeeper also gave me a basket to try and filter out some of the sludge,
 but the drain had a lot of water, and even though the water was still, nothing turned up even using that.
 
 Dejected, I returned home and washed my hands for 5 minutes to remove the dirt my hands had accumulated, but the stench would not just go away.

@@ -29,7 +29,7 @@ After that, I booked a trip to Goa with one of my friends, and then soon I had o
   
 While I was on this holiday, I told my manager that after much thinking, I want to quit. 4th March was my last working day.   
   
-Such a life-changing turmoil happened within the span of \~10 days and It's possibly changed the course of my life.  
+Such a life-changing turmoil happened within the span of \~10 days and it's possibly changed the course of my life.  
   
 I've recognized a lot of reasons that may have led me down this dark path, but we'll discuss those another day.   
   
@@ -40,7 +40,7 @@ I do have a few months of runway in terms of savings, and therefore me leaving m
   
 ## Writing  
   
-Yes, Writing is one of the things I've always wanted to do more of. I think I'm a good writer and writing stories about your life also helps preserve memories.   
+Yes, writing is one of the things I've always wanted to do more of. I think I'm a good writer and writing stories about your life also helps preserve memories.   
 However, I've not published much on this blog. The major reason for that is yak-shaving. I am a front-end developer, and every few months, I get bored of the current design. I do have things that I wanna write about, but I spend my energy on redesigning and tweaking my website instead. Even this time, I had this huge mental block of redesigning my website first instead of writing this post.  
   
 Not this time though, I will keep redesigning my website to practice my design and frontend skills, but I will also post a lot more on this blog. I also won't care much about the quality of my posts, this is my website, my home on the internet, so if this becomes a public journal, let it be.

@@ -8,7 +8,7 @@ tags:
 
 After trying out [sketching](/posts/i-drew-totoro/) earlier, I was looking for something else to try so I tried to dabble my hand at watercolor painting.
 
-So, on a Sunday evening, I went on youtube and searched for "Beginner Painting" when this [video](https://www.youtube.com/watch?v=T5tGiseJAGY) gathered my attention. Landscapes and Nature are always fascinating and on seeing the video, it looked like something a beginner like me could do. So I got watercolors and a piece of paper and just went through with it. 
+So, on a Sunday evening, I went on YouTube and searched for "Beginner Painting" when this [video](https://www.youtube.com/watch?v=T5tGiseJAGY) gathered my attention. Landscapes and nature are always fascinating and on seeing the video, it looked like something a beginner like me could do. So I got watercolors and a piece of paper and just went through with it. 
 
 This is how the painting looked in the video:
 

@@ -6,7 +6,7 @@ updatedAt: '2026-11-06'
 tags:
 ---
 
-[lodash](https://lodash.com/) is a popular javascript library with a set of utilities. One of the utilities that lodash provides is the [get](https://lodash.com/docs/4.17.15#get) function which, as the name suggests is used to get a value from an object. Let us see an example:
+[lodash](https://lodash.com/) is a popular JavaScript library with a set of utilities. One of the utilities that lodash provides is the [get](https://lodash.com/docs/4.17.15#get) function which, as the name suggests is used to get a value from an object. Let us see an example:
 
 Suppose there is an object:
 
@@ -27,7 +27,7 @@ const name = response.data.options.name;
 console.log(name);
 ```
 
-And this will work and output the name `Bojack`. No Worries, Right?
+And this will work and output the name `Bojack`. No worries, right?
 
 Well, for the most part, it is. Let me explain. Say, for example, this object is a response from an API and because the coding gods are angry with you, the object has a structure different from what you think it will be. The key `options` in the `data` object is now called `user_options` and the code you've written does not account for that. Now if you run the code to get the value of name this is what will happen:
 
@@ -72,9 +72,9 @@ Win-Win right?
 
 Well, not exactly. lodash is essentially a 3rd party dependency and you must have heard the saying `mo dependencies, mo problems`. Some of these problems include increased bundle size and the responsibility of keeping dependencies up to date.
 
-However, there seems to be a solution coming up in javascript itself. There have been two proposals to add the following two features to the language itself - [optional chaining](https://v8.dev/features/optional-chaining) and [nullish coalescing](https://v8.dev/features/nullish-coalescing).
+However, there seems to be a solution coming up in JavaScript itself. There have been two proposals to add the following two features to the language itself - [optional chaining](https://v8.dev/features/optional-chaining) and [nullish coalescing](https://v8.dev/features/nullish-coalescing).
 
-Let us see how these language features can help us in replacing lodash with native javascript.
+Let us see how these language features can help us in replacing lodash with native JavaScript.
 
 ## Optional Chaining
 

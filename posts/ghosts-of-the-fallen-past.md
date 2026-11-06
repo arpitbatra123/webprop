@@ -7,11 +7,11 @@ tags:
 - stories
 ---
 
-I went on a trip to Mussoorie today.  Mussoorie has a very old heritage especially because it was a winter haven for Englishmen who served in the British army. There’s not a lot of British heritage left at first sight, but thanks to a youtube [video](https://www.youtube.com/watch?v=1COOFaxDK2M) I was watching to figure out my itinerary for the day, I discovered that there is an old British military cemetery there.
+I went on a trip to Mussoorie today.  Mussoorie has a very old heritage especially because it was a winter haven for Englishmen who served in the British army. There’s not a lot of British heritage left at first sight, but thanks to a YouTube [video](https://www.youtube.com/watch?v=1COOFaxDK2M) I was watching to figure out my itinerary for the day, I discovered that there is an old British military cemetery there.
 
 Being the history buff I am, I instantly wanted to visit it.
 
-We were in the area when I put the location on google maps and told the driver to drive. The map showed another active cemetery nearby, and as we reached there was a lock on the gates. I was disappointed and also a little embarrassed because my family in the car were not very supportive of my grave hunting escapades.
+We were in the area when I put the location on Google Maps and told the driver to drive. The map showed another active cemetery nearby, and as we reached there was a lock on the gates. I was disappointed and also a little embarrassed because my family in the car were not very supportive of my grave hunting escapades.
 
 I was about to give up when our driver, who must have guessed how hopeful I was of looking at some old graves, decided to stop.
 
@@ -33,7 +33,7 @@ Seeing them gave me newfound confidence and I decided to jump over a broken port
 
 I was very afraid and definitely prayed to Jesus although I am not a Christian because what I was doing was definitely how a lot of Hollywood horror movies start.
 
-I had a look at some of the graves and started clicking photos but the graves I found were very recent. The youtube video I saw showcased graves from the year 1800 so I decided to keep looking.
+I had a look at some of the graves and started clicking photos but the graves I found were very recent. The YouTube video I saw showcased graves from the year 1800 so I decided to keep looking.
 
 If you’ve ever been to a hilly area, you must know that mountain slopes are made navigable by dividing the region into step-like structures.
 
