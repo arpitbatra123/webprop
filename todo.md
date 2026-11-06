@@ -25,8 +25,10 @@ Plan from 2026-09-28: make arpit.tk the clear home for the developer named Arpit
 - [x] `robots.txt` (`User-agent: *`, `Allow: /`, `Sitemap: https://arpit.tk/sitemap.xml`). Check both with `curl -I` and `curl -L` on Vercel.
 - [ ] Verify the domain in Search Console, submit the sitemap, inspect home, projects and case studies
 - [ ] Baseline the query "Arpit Batra" (country, pages, impressions, clicks, CTR, position) and take dated SERP snapshots on desktop and mobile
+  - SERP snapshots taken 2026-11-06, saved in ~/Documents/arpit-si-search/. arpit.tk is the 8th web result on desktop, 7th on mobile, still under the old domain. Search Console numbers still to add once data comes in.
 - [ ] Review at 2, 6 and 12 weeks. Use the pages and queries data to fix weak titles, internal links and project content.
-- [ ] Acceptance check: priority pages return 200 with a unique title, description and H1, one canonical, crawlable links and no accidental noindex. Also check duplicate-slash paths and `noindex` headers.
+- [x] Acceptance check: priority pages return 200 with a unique title, description and H1, one canonical, crawlable links and no accidental noindex. Also check duplicate-slash paths and `noindex` headers.
+  - Passed on 2026-11-06 for all 32 sitemap URLs. Redirects from http, www and arpit.tk work. /blog, /index.html and /blog/index.html now redirect too (trailingSlash and cleanUrls in vercel.json).
 - [ ] Human test: someone searching my name can tell within seconds which Arpit I am and find the work I want associated with me
 
 Don't: stuff the name into headings, buy links, or request removal of the other Arpit's results.
@@ -79,20 +81,22 @@ Tried on 2026-09-29, then reverted for review.
   - The nav's "Arpit Batra" link home is easy to miss. Consider making the footer name link home too, or adding an explicit Home link.
   - Decide whether the nav replaces the brown "Arpit Batra's Blog" line on posts.
   - Done: big name (links home) with a small centred link row under it on every page except Best of 22. The "Arpit Batra's Blog" line is gone. Add Projects once `/projects/` exists.
-- [ ] Footer: reference sites (overreacted.io, paco.me, manuelmoreale.com) keep footers in the text column, with no divider, small muted text, and no repeated nav links. Something like "© 2026 Arpit Batra · RSS". Don't set font-size on the footer itself, or its `ch` width shrinks and it stops lining up. Centre it on home and 404.
+- [x] Footer: reference sites (overreacted.io, paco.me, manuelmoreale.com) keep footers in the text column, with no divider, small muted text, and no repeated nav links. Something like "© 2026 Arpit Batra · RSS". Don't set font-size on the footer itself, or its `ch` width shrinks and it stops lining up. Centre it on home and 404.
+  - Done differently: the shared footer is the casual links row (Instagram, YouTube, Goodreads, RSS), small and muted, in the text column. No copyright line.
 - [ ] Callouts: the "old post" note (thin light bar) and blockquotes (thick black bar) clash when stacked, as on the box-sizing post. Give them one style. Grey quote text may be too faint for TLDRs.
 - [ ] Consider a "← All posts" link at the end of each post.
 - [x] Home: icon row is off-centre (`.links` is 200px with `justify-content: flex-end`); drop the inline `style="color:#000"` on icons.
 - [ ] Home: centred four-line bio is hard to read; left-align it next to the photo on desktop.
 - [ ] Links: "many things. " and "Documentation Engineer." include the trailing space and full stop inside the link. Add `text-underline-offset: 0.2em` and a thinner underline.
 - [ ] Blog list: 12px grey dates are too small. Try dates on the left in tabular numbers, or group by year.
-- [ ] Colours: `_variables.scss` defines three colours, but the stylesheets hard-code `#464444`, `brown`, `#6f6c66` and `#425043`. Move to CSS variables, which also makes dark mode easy.
+- [x] Colours: `_variables.scss` defines three colours, but the stylesheets hard-code `#464444`, `brown`, `#6f6c66` and `#425043`. Move to CSS variables, which also makes dark mode easy.
   - Partly done: two tones, `$color-ink` (text, home icons) and `$color-muted` (dates, post header line, home caption). `brown`, `#464444` and `$color-primary` are gone. `#425043` and the other Best of 22 colours remain, still Sass variables rather than CSS custom properties.
   - Dark mode done: colours are CSS variables with a dark set, and a header switch cycles auto, light and dark (auto follows the system). Code blocks use github-light-default and github-dark-default.
 - [ ] Fonts: trim Satoshi to the ~3 weights used, trim IBM Plex on Best of 22, and remove the unused Inter files in `assets/fonts`.
 - [ ] Inline code has no styling.
 - [ ] Dates: "Jul 10, 2020" with a comma, and ISO `datetime` on `<time>` (it currently repeats the display text).
-- [ ] Structure: move the repeated `<head>` into a shared `base.liquid` layout and a shared base stylesheet.
+- [x] Structure: move the repeated `<head>` into a shared `base.liquid` layout and a shared base stylesheet.
+  - Done: every page uses `base.liquid`, and shared styles live in `_base.scss`.
 - [ ] Fix the Sass `mixed-decls` deprecation warnings in `bestof22.scss`.
 
 ## Done
