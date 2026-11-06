@@ -8,7 +8,7 @@ body {
 }
 
 main {
-  max-width: 80ch;
+  max-width: $width-home;
 }
 
 // Photo and intro, side by side
@@ -34,7 +34,7 @@ main {
 
 @media (max-width: $breakpoint-md) {
   main {
-    max-width: 30ch;
+    max-width: $width-home-sm;
   }
 
   .hero {

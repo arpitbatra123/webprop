@@ -4,7 +4,7 @@
 @use "base";
 
 main {
-  max-width: 60ch;
+  max-width: $width-text;
 }
 
 // Title, date and the old-post note, centred

@@ -3,6 +3,12 @@ $breakpoint-sm: 640px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 1024px;
 
+// Text widths in rem, not ch: ch changes when Satoshi loads and shifts the layout.
+// Values match the old ch widths in Satoshi at 16px (1ch ≈ 0.683rem).
+$width-text: 41rem; // 60ch
+$width-home: 54.5rem; // 80ch
+$width-home-sm: 20.5rem; // 30ch
+
 // Colors are CSS variables, set in _base.scss, so they can change with the theme
 $color-ink: var(--color-ink);
 $color-muted: var(--color-muted);

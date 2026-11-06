@@ -10,12 +10,9 @@
     <link rel="preconnect" href="{{ fontHost }}" crossorigin />
     <link href="{{ fontCss }}" rel="stylesheet" />
     {%- else %}
-    <link rel="preconnect" href="https://api.fontshare.com" />
-    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
-    <link
-      href="https://api.fontshare.com/v2/css?f[]=satoshi@400,401,700,701&display=swap"
-      rel="stylesheet"
-    />
+    {%- comment %} Satoshi is self-hosted; @font-face is in _base.scss {% endcomment %}
+    <link rel="preload" href="/assets/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/satoshi-700.woff2" as="font" type="font/woff2" crossorigin />
     {%- endif %}
     <link rel="stylesheet" href="/styles/{{ stylesheet }}.css" />
     {%- if content contains 'class="demo' %}
