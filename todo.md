@@ -7,6 +7,7 @@ Plan from 2026-09-28: make arpit.tk the clear home for the developer named Arpit
 ### Site metadata
 
 - [x] Homepage title: "Arpit Batra | Documentation engineer & developer"
+- [ ] Reconsider "documentation engineer" in the homepage title, description and JSON-LD `jobTitle`, so I read as a software engineer too. Options: "Software engineer", "Software engineer & writer", "Software engineer, developer tools & docs". The intro line is mine to reword.
 - [ ] Page-specific homepage description and a visible intro with the distinguishing words. Keep the H1 with the name.
   - Description: "Arpit Batra's projects and writing on documentation engineering, developer tools, accessibility and creative work."
   - Intro draft, edit to sound like me: "I'm Arpit Batra, a documentation engineer and developer in India. I build tools around docs, the web and agentic AI, and write about the work behind them. I also make travel and creative projects."
