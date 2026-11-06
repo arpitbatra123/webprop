@@ -31,7 +31,7 @@ For the history geeks like me, here is a glimpse of some of the events mentioned
 
 \- India's Freedom Struggle
 
-\- The war for Kashmir's succession
+\- The war for Kashmir's accession
 
 \- The refugee crisis caused due to the partition of India.
 
