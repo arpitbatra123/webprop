@@ -7,7 +7,7 @@ tags:
 
 impending emotional turmoil is somewhat like the first drop of the oncoming rain.
 
-you’re out on the road, and there is it suddenly. you feel it on your cheek and you wipe it off.
+you’re out on the road, and there it is suddenly. you feel it on your cheek and you wipe it off.
 
 you don’t think much of it.
 

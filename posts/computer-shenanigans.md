@@ -11,7 +11,7 @@ I had decided to study today. But That Never Happened. Out of the blue, I decide
 
 > But Apparently, Life is not that easy.
 
-The exploit only worked half way. Later on, I realized My Script Kiddie Idiot Mind Had made a simple mistake.I tried again. A few hours had already passed and amidst all this, I even forgot that I was hungry. My attempts were failing so I thought I'd Better eat something and then get back at it. So after eating I was back at it. By this time I had realized that I could not hack this site Unless I tried to enter through the Front Door that is Trying to guess Some passwords. Half an hour later, It didn't work either.
+The exploit only worked halfway. Later on, I realized My Script Kiddie Idiot Mind Had made a simple mistake. I tried again. A few hours had already passed and amidst all this, I even forgot that I was hungry. My attempts were failing so I thought I'd Better eat something and then get back at it. So after eating I was back at it. By this time I had realized that I could not hack this site Unless I tried to enter through the Front Door that is Trying to guess Some passwords. Half an hour later, It didn't work either.
 
 > The Sun Had Fallen.
 

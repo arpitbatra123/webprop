@@ -36,7 +36,7 @@ As Software Engineers, we like to think that we are “Changing the world” but
 
 https://twitter.com/LareneLg/status/1270578058714443776
 
-A few months ago the below video was making rounds on Twitter. It shows how a blind user Kristy_Viersis able to use her iPhone and tweet through the use of accessibility features. Everybody commended the accessibility features that were able to provide her this experience which did not exclude her because of her disability.
+A few months ago the below video was making rounds on Twitter. It shows how a blind user Kristy_Viers is able to use her iPhone and tweet through the use of accessibility features. Everybody commended the accessibility features that were able to provide her this experience which did not exclude her because of her disability.
 
 https://twitter.com/Kristy_Viers/status/1287189581926981634
 

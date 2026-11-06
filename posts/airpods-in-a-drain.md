@@ -21,11 +21,11 @@ When I reached the store, she was pleased to see her mother. I handed her off to
 
 Her Mom was inspecting the vegetables, and while the shopkeeper was not looking, she picked some vegetables and tossed them in the nearby drain. She's a very mischievous child, and when I scolded her for being so, she laughed back at me like she always does. I went to her and picked her up again because she looked adorable.
 
-There's also a fast food stall beside the Vegetable Vendor, and when I picked her up, she saw it and shouted, "Noodles" . I did not pay much attention because I was talking to my friend.
+There's also a fast food stall beside the Vegetable Vendor, and when I picked her up, she saw it and shouted, "Noodles". I did not pay much attention because I was talking to my friend.
 
 She gets angry when I don't pay attention to her, so she flicked her hand at my ear to try to get my attention. Unfortunately, I was still wearing my AirPods, and when she flicked her hand, an AirPod went flying.
 
-I think time stopped in that split second. I wish I had better instincts because the AirPod took a good second to bounce off the tarmac beside the vegetable shop and off into the drain. I saw the exact point where the airport disappeared into the black, sludgy water of the drain and squatted on the road to look for it. My friend was still on the phone and, following this whole story through my commentary, told me to cut the phone and look for it.
+I think time stopped in that split second. I wish I had better instincts because the AirPod took a good second to bounce off the tarmac beside the vegetable shop and off into the drain. I saw the exact point where the AirPod disappeared into the black, sludgy water of the drain and squatted on the road to look for it. My friend was still on the phone and, following this whole story through my commentary, told me to cut the phone and look for it.
 
 Soon, the little kid's Mom started looking for it, trying to help me.
 
@@ -46,7 +46,7 @@ I also told my Mom and sister what had happened, and my Mom started to scold me.
 On top of that, I had recently quit my job and was currently unemployed, which had made me a huge miser, and my sister and I headed out again to look for it.
 
 On reaching the shop, I opened the tracking app on my phone, and it connected to the AirPod again. I was amazed at how resilient this little device was. It was buried deep in the dark drain somewhere,
-but it had refused to die and was still broadcasting a signal, a cry for help
+but it had refused to die and was still broadcasting a signal, a cry for help.
 
 Seeing as I was desperate to find it, the vegetable seller guy brought a spade and started removing the sludge from the drain. At the same time, I ran my phone over it like I was metal detecting.
 

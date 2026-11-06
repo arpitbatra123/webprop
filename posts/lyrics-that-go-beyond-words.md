@@ -6,11 +6,11 @@ updatedAt: '2020-05-10'
 tags:
 ---
 
-> tl:dr
+> tl;dr
 
 [Here's](https://open.spotify.com/playlist/53EwdQFx9sh6boC36Ktm1l?si=jJ3rDJFeRtmoooCqiII6kA) a Spotify playlist with songs that I think have really meaningful lyrics.
 
-> end tl:dr
+> end tl;dr
 
 I listen to a lot of different genres of music but songs that have meaningful lyrics are the ones I connect to the most. This post is a collection of sorts of the song lyrics I felt a connect with as they remain relevant long after the music fades down. I've also attempted to translate some of the non-english lyrics to english while trying to maintain their sanctity.
 
@@ -19,14 +19,14 @@ I listen to a lot of different genres of music but songs that have meaningful ly
 ## [मेरा कुछ सामान](https://www.youtube.com/watch?v=OlvXDGJAMT0) 
 
 एक अकेली छत्री में जब आधे आधे भीग रहे थे    
-आधे सूखे, आधे गिले,    
-सुखा तो मैं ले आयी थी   
-गिला मन शायद, बिस्तर के पास पडा हो    
+आधे सूखे, आधे गीले,    
+सूखा तो मैं ले आयी थी   
+गीला मन शायद, बिस्तर के पास पड़ा हो    
 वो भिजवा दो,   
 मेरा वो सामान लौटा दो   
 
 
-In the magical mellow voice of Asha Bhosle, This song is a lyrical marvel by Gulzaar.
+In the magical mellow voice of Asha Bhosle, This song is a lyrical marvel by Gulzar.
 
 ## [Inside of love](https://www.youtube.com/watch?v=sW1ZJNVAc-Q)
 
@@ -108,9 +108,9 @@ still, we have to cross it with a smile on our faces.
 ## [कहीं तो होगी वो](https://www.youtube.com/watch?v=KFwjibi-JRU) 
 
 जाने ना कहाँ वो दुनिया है,   
-जाने ना वो है भी या नही,   
+जाने ना वो है भी या नहीं,   
 जहाँ मेरी ज़िन्दगी मुझसे,   
-इतनी खफ़ा नही   
+इतनी खफ़ा नहीं   
 
 
 ## [Najeek](https://www.youtube.com/watch?v=AMRGmAh2NTk)

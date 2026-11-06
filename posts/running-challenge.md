@@ -31,7 +31,7 @@ Damn, I wrote soo much. Usually, I can't write much but on some days I'm on fire
 
 Ah, so we were talking about how I decided to run for 30 days.
 
-Now Since it is a well-established fact that I was a very lazy person, I usually slept late at night. Mind you, I am not a night owl by any means. I mean, I never stay up late until 12. But the problem is, like other people I can't fall asleep immediately after lying down. I require a fair 30 -50 minutes before I fall asleep. And then I wake up late and am almost always late for college.
+Now Since it is a well-established fact that I was a very lazy person, I usually slept late at night. Mind you, I am not a night owl by any means. I mean, I never stay up late until 12. But the problem is, like other people I can't fall asleep immediately after lying down. I require a fair 30-50 minutes before I fall asleep. And then I wake up late and am almost always late for college.
 
 So, enough of my life story, let's get back to the topic.
 

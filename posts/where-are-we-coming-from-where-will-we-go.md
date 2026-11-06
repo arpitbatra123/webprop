@@ -11,7 +11,7 @@ Those who love us will remember us.
   
  But then again. People die two deaths, once when their soul leaves their body and the second when their name is uttered for the last time.
 
-I just met a person who has not yet died his second death yet. The person is Sevak Raam Yatri, the father of my maternal grandfather.
+I just met a person who has not yet died his second death. The person is Sevak Raam Yatri, the father of my maternal grandfather.
 
 A few days ago, my maternal grandmother gave me this book:  
   

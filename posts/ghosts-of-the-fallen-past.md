@@ -7,7 +7,7 @@ tags:
 - stories
 ---
 
-I went on a trip to Mussoorie today.  Mussorie has a very old heritage especially because it was a winter haven for Englishmen who served in the British army. There’s not a lot of British heritage left at first sight, but thanks to a youtube [video](https://www.youtube.com/watch?v=1COOFaxDK2M) I was watching to figure out my itinerary for the day, I discovered that there is an old British military cemetery there.
+I went on a trip to Mussoorie today.  Mussoorie has a very old heritage especially because it was a winter haven for Englishmen who served in the British army. There’s not a lot of British heritage left at first sight, but thanks to a youtube [video](https://www.youtube.com/watch?v=1COOFaxDK2M) I was watching to figure out my itinerary for the day, I discovered that there is an old British military cemetery there.
 
 Being the history buff I am, I instantly wanted to visit it.
 
@@ -43,9 +43,9 @@ Here are some photos:
 
 [![Path leading to cemetery](/assets/images/ghosts-of-the-fallen-past-path.jpg)](/assets/images/ghosts-of-the-fallen-past-path.jpg)
 
-[![Locked Gates of the cemetary](/assets/images/ghosts-of-the-fallen-past-gates.jpg)](/assets/images/ghosts-of-the-fallen-past-gates.jpg)
+[![Locked Gates of the cemetery](/assets/images/ghosts-of-the-fallen-past-gates.jpg)](/assets/images/ghosts-of-the-fallen-past-gates.jpg)
 
-[![An old structure inside the cemetry](/assets/images/ghosts-of-the-fallen-past-structure.jpg)](/assets/images/ghosts-of-the-fallen-past-structure.jpg)
+[![An old structure inside the cemetery](/assets/images/ghosts-of-the-fallen-past-structure.jpg)](/assets/images/ghosts-of-the-fallen-past-structure.jpg)
 
 [![Ancient grave](/assets/images/ghosts-of-the-fallen-past-grave-1.jpg)](/assets/images/ghosts-of-the-fallen-past-grave-1.jpg)
 
