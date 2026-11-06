@@ -34,7 +34,7 @@ I wanna know what it's like on the inside of love.
 I'm standing at the gates,    
 I see the beauty above    
 
-I first heard this song on the TV show HIMYM, and could not get the lyrics out of my mind. They hit too deep. This song got me through (or put me in?) some tough time in matters pertaining to love.
+I first heard this song on the TV show HIMYM, and could not get the lyrics out of my mind. They hit too deep. This song got me through (or put me in?) some tough times in matters pertaining to love.
 
 ## [इक बगल में चाँद होगा](https://www.youtube.com/watch?v=L_EVAdvxJcU) 
 

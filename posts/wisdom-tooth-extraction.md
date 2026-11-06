@@ -15,7 +15,7 @@ After some maneuvering, she was able to finally inject the medicine and told me 
 
 After a minute or so, the procedure finally started. The dentist shouted at her assistant to get various kinds of instruments and medical terms which I could only half comprehend.
 
-Interestingly enough, the Dentists' child was in the same room as us, and she was telling him words to write in his notebook as she was moving around various instruments in my mouth. I was a little bit worried about this, but she was probably used to this arrangement as she was not getting distracted while doing so.
+Interestingly enough, the dentist's child was in the same room as us, and she was telling him words to write in his notebook as she was moving around various instruments in my mouth. I was a little bit worried about this, but she was probably used to this arrangement as she was not getting distracted while doing so.
 
 My mouth was completely numb at this point, and she had started to cut and pull with various devices on the insides of my mouth. I was getting anxious, so I decided to stare at random objects in the room. Since I did not have my glasses, I could not even see the clock on the opposite wall properly so I resorted to thinking about my life instead.
 

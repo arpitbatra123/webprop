@@ -16,7 +16,7 @@ For a very long time, I did not think very much of it, until one day I saw a guy
 
 The short story you just read was an example of accessibility in the real world. The stairs facilitate the movement of able people, the slope does the same for those who are unable to. Both of these blend together so well that it's almost difficult to think of them separately.
 
-Accessibility on the web are the same principles but applied to web development. In other words, people's disabilities should not affect their usage of the web. That of course, is a very ambitious statement, but that is precisely the aim of technology. Things that were unthinkable of yesterday shall be possible tomorrow.
+Accessibility on the web is the same principles but applied to web development. In other words, people's disabilities should not affect their usage of the web. That of course, is a very ambitious statement, but that is precisely the aim of technology. Things that were unthinkable yesterday shall be possible tomorrow.
 
 Let me now give you some reasons why I have started caring about accessibility:
 

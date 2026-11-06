@@ -20,7 +20,7 @@ And this is my first attempt at the painting:
 ![My first attempt at the painting](/assets/images/painting-is-fun-first-attempt.jpg)
 
 
-I was not very patient while drawing the painting for the first so it did not turn up as good as I wanted it to. Therefore I decided to have another go at it. This is my second attempt:
+I was not very patient while drawing the painting for the first time so it did not turn out as good as I wanted it to. Therefore I decided to have another go at it. This is my second attempt:
 
 ![My second attempt at the painting](/assets/images/painting-is-fun-second-attempt.jpg)
 

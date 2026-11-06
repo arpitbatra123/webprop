@@ -39,7 +39,7 @@ Now, to go running I had to wake up early. And to wake up early I had to go to b
 
 But, my body was not used to going to sleep that early. Nevertheless, one day while researching insomnia on google, I read an article that stated that to reset your sleep cycle, you have to force your body to fall asleep. And Boy, did I force my body to sleep that night.
 
-I wake up at the right time the next day and went running.
+I woke up at the right time the next day and went running.
 
 > And the rest is... History?
 
@@ -47,7 +47,7 @@ Well, Technically It's not History Yet as It's Only the 17th of February and Sle
 
 I run approximately 2 kilometers every day and after running 1 kilometer, I take many ugly selfies. I shall be compiling these selfies into a small video when I will be able to complete the challenge.
 
-The one main important thing I've learned from undertaking this challenge until is that whenever you're chasing your goals, there will be two kinds of the days, the first kind will be the days on which you'll be full of energy and enthusiasm, you'll wake up motivated and then you'll strive towards conquering your goals. The second kind of day will be the day when you'll be tired and have zero enthusiasm. You will tell yourself a thousand excuses why you shouldn't do what you're about to.
+The one main important thing I've learned from undertaking this challenge until now is that whenever you're chasing your goals, there will be two kinds of days, the first kind will be the days on which you'll be full of energy and enthusiasm, you'll wake up motivated and then you'll strive towards conquering your goals. The second kind of day will be the day when you'll be tired and have zero enthusiasm. You will tell yourself a thousand excuses why you shouldn't do what you're about to.
 
 It is on these days that you have to conquer your fears, you have to stop your brain from making lame excuses. say to yourself, I will wake up, and I will be hustling through the day and will walk towards the path to success.
 

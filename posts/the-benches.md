@@ -7,11 +7,11 @@ tags:
 
 I decided to go for a run today after finishing some work. I wanted to clear my mind for a while, so going for a run was the best thing I could do for myself.
 
-I put on my running shoes and earphones and started running. I should have warmed up a little by running slowly first, but today, the purpose of the run was different. My ankle started cramping, but I just wanted to run quickly. I had not run for months so soon my running progressed into walking and running alternatively. But soon, I reached the place I wanted to.
+I put on my running shoes and earphones and started running. I should have warmed up a little by running slowly first, but today, the purpose of the run was different. My ankle started cramping, but I just wanted to run quickly. I had not run for months so soon my running progressed into walking and running alternately. But soon, I reached the place I wanted to.
 
 There is a set of benches beside the road where I often sit down after a good run to relax. I usually don't want to be bothered, so I take up an empty bench, and as I catch my breath, I start noticing various things.
 
-Most cities today are devoid of public spaces, so these benches where people can sit and relax before going onward is a nice little space. A bustling road runs just a few meters away, and I've passed through it in a vehicle hundreds of times, but I never notice these benches. Only when I sit on one of the benches myself does this lovely place reveal itself.
+Most cities today are devoid of public spaces, so these benches where people can sit and relax before going onward are a nice little space. A bustling road runs just a few meters away, and I've passed through it in a vehicle hundreds of times, but I never notice these benches. Only when I sit on one of the benches myself does this lovely place reveal itself.
 
 This place is terrific, but I don't see many people on these benches.
 There are various distinct kinds of people, though.

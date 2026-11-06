@@ -16,4 +16,4 @@ In April, the lockdown due to corona had started and everyone was stuck indoors.
 
 Nevertheless, I decided that I will try to draw something. How hard could it be? I had recently seen the animated movie ["My Neighbour Totoro"](https://en.wikipedia.org/wiki/My_Neighbor_Totoro) and I was very delighted over how beautiful "Totoro" from the movie looked. So I googled "How to draw Totoro". The rest is history. You can see my attempt at drawing on top of the post. It's not perfect and might look like it was drawn by a child, but I am still very proud of it.
 
-My Neighbor Totoro is a great film btw, and you should watch it you are a fan of [Miyazaki](https://en.wikipedia.org/wiki/Hayao_Miyazaki).
+My Neighbor Totoro is a great film btw, and you should watch it if you are a fan of [Miyazaki](https://en.wikipedia.org/wiki/Hayao_Miyazaki).

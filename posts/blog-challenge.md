@@ -20,7 +20,7 @@ It’s all over the place honestly. For example, this post is currently being wr
 Inspiration comes and goes ( takes a long time to come back after going ) . I wish I could rely on discipline rather than inspiration, especially for writing technical posts but it is what it is. Some of the posts on my blog however, have been written like as soon as the thought came to my mind, and I like those best.
 
 **Do you publish immediately after writing, or do you let it simmer a bit as a draft?**
-Some of the posts have been published an year after they were written, because I could not be arsed to edit them. Some of them have been published immediately with grave spelling errors.
+Some of the posts have been published a year after they were written, because I could not be arsed to edit them. Some of them have been published immediately with grave spelling errors.
 
 **What's your favorite post on your blog?**
 I really like this [one](https://arpit.si/posts/where-are-we-coming-from-where-will-we-go/) . It might not mean much to somebody else reading it, but it means a lot to me. I’m particularly proud of the poem I’ve written there.

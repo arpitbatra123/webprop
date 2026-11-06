@@ -15,7 +15,7 @@ College was fun. I spent more time in the high-speed Internet labs than in class
 
  The last few semesters of college rolled in, and I decided it was time to gain some real-world experience.
 
-I got an internship as a DevOps engineer. Most insightful time of my life, career-wise. I was deep in the trenches, out in the real world. I spend my days on the AWS Dashboard, exploring the myriad of services it offers. It was fun, but DevOps was machines and configuration. I wanted something I could “see”. I did not take the full-time offer and left after 6 months. 
+I got an internship as a DevOps engineer. Most insightful time of my life, career-wise. I was deep in the trenches, out in the real world. I spent my days on the AWS Dashboard, exploring the myriad of services it offers. It was fun, but DevOps was machines and configuration. I wanted something I could “see”. I did not take the full-time offer and left after 6 months. 
 
 Hunting for companies where I could do full-stack stuff, I landed at Postman. I was finally comfortable. It was a company that was growing out of its “startup” phase. I was in the company of brilliant minds. I was working on a product used by developers worldwide. It was a hustle, but I learnt a lot.
 

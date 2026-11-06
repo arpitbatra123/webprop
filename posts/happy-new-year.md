@@ -31,12 +31,12 @@ It is kinda fun though. Cool Winds. The faint rustling of leaves and the even fa
 
 I came up here because I wanted to be alone with my thoughts to reflect on how my year has been. It’s been a topsy turvy ride actually.
 
-Last New Year, When I was watching firecrackers at midnight with my friends, I could never have imagined that next year will be tremendously different.
+Last New Year, When I was watching firecrackers at midnight with my friends, I could never have imagined that this year would be tremendously different.
 
 What does the next year have in store for me?
 
 Time passes so swiftly that we will soon find out!
 
-It is almost midnight now. I will now countdown to the new year.
+It is almost midnight now. I will now count down to the new year.
 
 Happy New Year!

@@ -35,7 +35,7 @@ I remembered that iPhones can track lost AirPods, so I started up the Find My Ph
 
 By now, some onlookers were curious about what we were doing, and when we told them we were finding an AirPod, most of them told me that it had probably stopped working by now.
 
-Hearing this, the mother of the kid asked me how much it cost, and since I did not remember the price, I said something like 10,000. After saying that, I also realized that this thing was expensive and started looking for it harder. The fact that my phone was still receiving a signal meant it was still there somewhere, and I did not want to give up. Something came onto me, and I dipped my bare, raw hands in that disgusting drain, trying to find the AirPod in the general area where the signal was coming from.
+Hearing this, the mother of the kid asked me how much it cost, and since I did not remember the price, I said something like 10,000. After saying that, I also realized that this thing was expensive and started looking for it harder. The fact that my phone was still receiving a signal meant it was still there somewhere, and I did not want to give up. Something came over me, and I dipped my bare, raw hands in that disgusting drain, trying to find the AirPod in the general area where the signal was coming from.
 
 I searched for 5 minutes, but it did not turn up. At this point, My hand smelt like hell itself, and I decided to give up. The shopkeeper also gave me a basket to try and filter out some of the sludge,
 but the drain had a lot of water, and even though the water was still, nothing turned up even using that.

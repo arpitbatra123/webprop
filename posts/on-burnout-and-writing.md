@@ -5,13 +5,13 @@ date: 2022-03-23 11:48:00 Z
 tags: []
 ---
 
-Today is the 23rd of March. It's been a few days since I've quit my job.
+Today is the 23rd of March. It's been a few days since I quit my job.
 
 In the last month or so, I have been battling severe burnout and depression. This was not the first time that I had gotten frustrated at work, but the intensity of my disinclination towards work was very high.
 
 Soon, there came a day when I found myself physically incapable of continuing to work. I was working from home, so avoiding work was easy.
 
-But when my manager asked me about the status of my work, I realize I could not keep saying "I'm looking into it".  
+But when my manager asked me about the status of my work, I realized I could not keep saying "I'm looking into it".  
   
 The very next day, I talked to my manager and went on a 1-week break. That was probably one of the worst weeks of my life, mental health-wise. I had a big decision to make regarding my career, and by association, my life.   
   
