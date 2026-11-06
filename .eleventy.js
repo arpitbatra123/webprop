@@ -4,7 +4,7 @@ import markdownIt from "markdown-it";
 import Shiki from "@shikijs/markdown-it";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
-const siteUrl = "https://arpit.tk";
+const siteUrl = "https://arpit.si";
 
 export default async function (eleventyConfig) {
   eleventyConfig.addGlobalData("site", () => ({
