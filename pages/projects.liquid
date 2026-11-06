@@ -1,0 +1,37 @@
+---
+permalink: projects/index.html
+layout: base.liquid
+stylesheet: projects
+title: Arpit Batra's Projects
+description: "Projects by Arpit Batra"
+---
+
+{%- comment %} The list lives in _data/projects.json {% endcomment %}
+<main id="main">
+  <h1 class="visually-hidden">Projects</h1>
+  {%- for group in projects %}
+  <section>
+    <h2>{{ group.title }}</h2>
+    {%- if group.byline != "" %}
+    <p class="projects-byline">{{ group.byline }}</p>
+    {%- endif %}
+    <ul class="projects">
+      {%- for project in group.items %}
+      <li class="project">
+        <a class="project-name" href="{{ project.url | default: project.repo }}">{{ project.name }}</a>
+        {%- if project.description %}
+        <p class="project-description">{{ project.description }}</p>
+        {%- endif %}
+        <p class="project-meta">
+          {{ project.year }}
+          {%- if project.language %} · {{ project.language }}{% endif %}
+          {%- if project.stars %} · {{ project.stars }} stars{% endif %}
+          {%- if project.url and project.repo %} · <a href="{{ project.repo }}">Code</a>{% endif %}
+          {%- if project.post %} · <a href="{{ project.post }}">Post</a>{% endif %}
+        </p>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endfor %}
+</main>

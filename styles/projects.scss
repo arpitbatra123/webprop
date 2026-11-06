@@ -1,0 +1,55 @@
+// Projects: grouped lists, like the blog list
+@use "reset";
+@use "variables" as *;
+@use "base";
+
+main {
+  max-width: $width-text;
+}
+
+section + section {
+  margin-top: 3rem;
+}
+
+// Category: the strongest level on the page
+h2 {
+  margin: 0 0 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+// A line about the category, under its name
+.projects-byline {
+  margin: -1rem 0 1.25rem;
+  color: $color-muted;
+}
+
+.project + .project {
+  margin-top: 1.25rem;
+}
+
+.project-name {
+  color: $color-ink;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.project-name:hover {
+  text-decoration: underline;
+}
+
+.project-description {
+  margin: 0.25rem 0 0;
+}
+
+.project-meta {
+  margin: 0.25rem 0 0;
+  color: $color-muted;
+  font-size: 0.875rem;
+}
+
+@media (max-width: $breakpoint-md) {
+  main {
+    padding: 0 1rem;
+  }
+}

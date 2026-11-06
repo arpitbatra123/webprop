@@ -48,6 +48,7 @@ Don't: stuff the name into headings, buy links, or request removal of the other 
 ## Pages and content
 
 - [ ] `/projects/` hub, linked from the nav
+  - Hub built: /projects/ in the nav, list in `_data/projects.json` (Creative, Developer tools, Early projects), one-liners from my GitHub descriptions. Best of 22 moved here from the blog list; /posts/best-of-2022/ redirects to /bestof22/. Still to do: the case-study pages below.
   - [ ] Google Tasks MCP server (also pin on GitHub): what it does, setup, architecture, limitations, repo
   - [ ] Eleventy template: design and accessibility choices, demo, repo
   - [ ] A docs or AI workflow that's publishable, without work-confidential details

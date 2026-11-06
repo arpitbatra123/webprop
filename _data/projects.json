@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Developer tools",
+    "byline": "Scratching my own itch",
+    "items": [
+      {
+        "name": "mcp-googletasks",
+        "description": "This Model Context Protocol (MCP) server provides a bridge between LLMs and Google Tasks, allowing you to manage your task lists and tasks directly through Claude.",
+        "year": 2025,
+        "language": "TypeScript",
+        "stars": 51,
+        "repo": "https://github.com/arpitbatra123/mcp-googletasks"
+      },
+      {
+        "name": "eleventy-theme-kindle",
+        "description": "An 11ty Blog Project Based on a Kindle Visual Look",
+        "year": 2022,
+        "language": "SCSS",
+        "url": "https://eleventy-theme-kindle.vercel.app",
+        "repo": "https://github.com/arpitbatra123/eleventy-theme-kindle"
+      },
+      {
+        "name": "mnml new tab",
+        "description": "A minimal experience for the new tab page",
+        "year": 2020,
+        "language": "JavaScript",
+        "repo": "https://github.com/arpitbatra123/mnml-new-tab",
+        "post": "/posts/mnml-new-tab/"
+      },
+      {
+        "name": "eleventy-blog-mnml",
+        "description": "A minimal blog template using eleventy",
+        "year": 2019,
+        "language": "SCSS",
+        "stars": 108,
+        "url": "https://eleventy-blog-mnml.netlify.app/",
+        "repo": "https://github.com/arpitbatra123/eleventy-blog-mnml"
+      }
+    ]
+  },
+  {
+    "title": "Creative",
+    "byline": "Fun handwritten projects from before AI took over!",
+    "items": [
+      {
+        "name": "Best of 22",
+        "description": "The films, books, shows and music I liked most in 2022.",
+        "year": 2023,
+        "url": "/bestof22/"
+      },
+      {
+        "name": "lands upon",
+        "description": "The lands I've walked upon",
+        "year": 2021,
+        "url": "https://lands-upon.vercel.app",
+        "repo": "https://github.com/arpitbatra123/lands-upon"
+      },
+      {
+        "name": "inspo",
+        "description": "A collection of inspirational screenshots",
+        "year": 2020,
+        "url": "https://inspo-arpit.vercel.app",
+        "repo": "https://github.com/arpitbatra123/inspo-arpit"
+      },
+      {
+        "name": "swansonsays",
+        "description": "\"Don't waste energy moving unless necessary.\" - Ron Swanson",
+        "year": 2020,
+        "language": "JavaScript",
+        "url": "https://www.npmjs.com/package/swansonsays",
+        "repo": "https://github.com/arpitbatra123/swansonsays"
+      }
+    ]
+  },
+  {
+    "title": "Early projects",
+    "byline": "Baby steps, darling!",
+    "items": [
+      {
+        "name": "Steganography",
+        "year": 2018,
+        "language": "C++",
+        "repo": "https://github.com/arpitbatra123/Steganography"
+      },
+      {
+        "name": "Currency Converter",
+        "year": 2017,
+        "language": "Java",
+        "stars": 11,
+        "repo": "https://github.com/arpitbatra123/CurrencyConverter"
+      }
+    ]
+  }
+]
