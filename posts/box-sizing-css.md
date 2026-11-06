@@ -2,11 +2,11 @@
 title: What is 'box-sizing' in CSS and why should it be 'border-box'?
 description: "Why a 200px box with padding ends up wider than 200px in CSS, and how box-sizing: border-box fixes it."
 date: 2020-07-09 20:30:00 Z
-updatedAt: '2026-10-30'
+updatedAt: '2026-11-06'
 tags:
 ---
 
-> TLDR: By default, css adds padding and margin values to the width and height of your elements. A 200px wide box with 10px padding will have an effective width of 220px. Use `box-sizing: border-box;` to prevent this.
+> TLDR: By default, css adds padding and border values to the width and height of your elements. A 200px wide box with 10px padding will have an effective width of 220px. Use `box-sizing: border-box;` to prevent this.
 
 Imagine yourself embarking on a journey towards learning front-end web development. You are pretty excited as you should be! One day, you will turn beautiful designs into code.
 
@@ -114,7 +114,7 @@ Yes, there is. Let us add the `box-sizing` property with a value of `border-box`
 
 Lo and behold! The box has the padding, and also has the values for the widths and heights that you specified!
 
-How did this work? Well, by default, all elements have the value `content-box` for `box-sizing`. This means any padding and margins you add are added to the width and height of elements. `border-box` prevents that behavior.
+How did this work? Well, by default, all elements have the value `content-box` for `box-sizing`. This means any padding and borders you add are added to the width and height of elements. `border-box` prevents that behavior.
 
 You want `border-box` to be the default value for all elements to eradicate the frustration you were dealing with a few minutes ago! This can be done easily by using universal selectors in CSS.
 

@@ -2,6 +2,7 @@
 title: Replacing lodash.get with Nullish Coalescing and Optional Chaining
 description: "lodash.get safely reads nested values. Optional chaining and nullish coalescing now do the same in plain JavaScript."
 date: 2019-12-15 00:00:00 Z
+updatedAt: '2026-11-06'
 tags:
 ---
 
@@ -30,6 +31,14 @@ And this will work and output the name `Bojack`. No Worries, Right?
 
 Well, for the most part, it is. Let me explain. Say, for example, this object is a response from an API and because the coding gods are angry on you, the object has a structure different from what you think it will be. The key `options` in the `data` object is now called `user_options` and the code you've written does not account for that. Now if you run the code to get the value of name this is what will happen:
 
+<!-- TODO(arpit): the example after "this is what will happen:" is missing, and was missing on arpit.tk in 2021 too.
+Suggestion, rewrite or delete:
+```js
+const name = response.data.options.name;
+// TypeError: Cannot read properties of undefined (reading 'name')
+```
+-->
+
 Since `data.options` is `undefined` and you are trying to access the `name` property of `undefined`, you end up with a `TypeError`.
 
 To make sure you do not end up in such a situation, you have to put up safety checks in your code. For example, we can do something like this:
@@ -52,7 +61,7 @@ const name = _.get(response, 'data.options.name');
 
 This will make sure that you do not end up with errors and also don't have to write complex accessor chains like in the example before this one.
 
-Another beauty of the lodash `get` function is that you can specify an optional 3rd argument which is the default value to return when the property you are trying to access is falsy. For example,
+Another beauty of the lodash `get` function is that you can specify an optional 3rd argument which is the default value to return when the property you are trying to access is `undefined`. For example,
 
 ```js
 const name = _.get(response, 'data.options.name', 'Todd');
