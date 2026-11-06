@@ -11,7 +11,8 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "dev": "npm-run-all build:sass --parallel watch:*",
-    "build": "run-s build:sass build:eleventy"
+    "build": "run-s build:sass build:eleventy",
+    "og": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless --hide-scrollbars --virtual-time-budget=5000 --window-size=1200,630 --screenshot=assets/images/og-arpit-batra.png assets/images/og-arpit-batra.svg"
   },
   "keywords": [],
   "author": "",
