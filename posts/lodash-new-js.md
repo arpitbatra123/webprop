@@ -29,7 +29,7 @@ console.log(name);
 
 And this will work and output the name `Bojack`. No Worries, Right?
 
-Well, for the most part, it is. Let me explain. Say, for example, this object is a response from an API and because the coding gods are angry on you, the object has a structure different from what you think it will be. The key `options` in the `data` object is now called `user_options` and the code you've written does not account for that. Now if you run the code to get the value of name this is what will happen:
+Well, for the most part, it is. Let me explain. Say, for example, this object is a response from an API and because the coding gods are angry with you, the object has a structure different from what you think it will be. The key `options` in the `data` object is now called `user_options` and the code you've written does not account for that. Now if you run the code to get the value of name this is what will happen:
 
 ```js
 const name = response.data.options.name;
@@ -102,11 +102,11 @@ Here is how you can do it by using nullish coalescing:
 const name = response?.data?.options?.name ?? 'Todd';
 ```
 
-In the above statement, we combined the use of _optional chaining_ and _nullish coalescing_ to achieve the same result that we were getting by using lodash or making the use of `&&` and `||` operators. If I am unable to access the property `name` from the `response` object, due to optional chaining, the name will have the default property `Todd` thanks to nullish coalescing.
+In the above statement, we combined the use of _optional chaining_ and _nullish coalescing_ to achieve almost the same result that we were getting by using lodash or making use of `&&` and `||` operators. (Unlike `||`, `??` only falls back when the value is `null` or `undefined`, so an empty string or `0` is kept.) If I am unable to access the property `name` from the `response` object, due to optional chaining, the name will have the default value `Todd` thanks to nullish coalescing.
 
 **So can I go ahead and replace `lodash.get` in my app?**
 
-Sure, but first check out the browser support for the respective features [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator#Browser_compatibility) and [here](https://caniuse.com/#feat=mdn-javascript_operators_optional_chaining) and if you develop for browsers where they aren't supported, you'll have to polyfill them.
+Sure, but first check out the browser support for the respective features [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator#Browser_compatibility) and [here](https://caniuse.com/#feat=mdn-javascript_operators_optional_chaining) and if you develop for browsers where they aren't supported, you'll have to transpile them with a tool like Babel.
 
 Further Reading/References -
 

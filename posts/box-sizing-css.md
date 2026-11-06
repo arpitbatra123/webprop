@@ -82,7 +82,7 @@ Cool! That sure does look fine but the text is stuck on the corner. Let's add so
   </div>
 </div>
 
-WHAT? The dimensions of the box have changed? What's happening? After furiously digging in the browser's dev tools, you find out the padding value of `10px` is being added to the width and height of the box. The browser is doing this and is just ignoring the width and height you've specified.
+WHAT? The dimensions of the box have changed? What's happening? After furiously digging in the browser's dev tools, you find out the padding value of `10px` is being added to the width and height of the box. The browser is doing this and seems to be ignoring the width and height you've specified.
 
 So you have to calculate the actual width of all boxes in your brain now. You get anxiety by thinking of all the math you will have to do from now on. If you are somewhat like me, you are wanting to just quit and get back to browsing twitter or watching **#productivity** videos on youtube. You are also thinking of transitioning to learning back end development where at least the code you write will be respected and the language won't do any magic on its own. (This is far from the truth, but you don't know that yet)
 

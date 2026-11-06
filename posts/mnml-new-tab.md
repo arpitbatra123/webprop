@@ -18,7 +18,7 @@ I had been using other extensions to show bookmarks in the new tab page so that 
 
 ## Technical Details
 
-Since chrome, firefox and edge (since it's based on chromium), have adopted the [webextension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions) spec so it's easy to develop extensions for all of these browsers using a single codebase. There are some minor differences though. Firefox webextension API's are promise based but chrome is still using the older callback syntax, also functions on chrome are under the `chrome` namespace, as compared to `browser` on firefox. Thankfully, firefox has a handy [polyfill](https://github.com/mozilla/webextension-polyfill) which helps iron out these quirks.
+Since chrome, firefox and edge (since it's based on chromium), have adopted the [webextension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions) spec, it's easy to develop extensions for all of these browsers using a single codebase. There are some minor differences though. Firefox webextension APIs are promise based but chrome is still using the older callback syntax, also functions on chrome are under the `chrome` namespace, as compared to `browser` on firefox. Thankfully, firefox has a handy [polyfill](https://github.com/mozilla/webextension-polyfill) which helps iron out these quirks.
 
 The quote that the new tab page displays is fetched from [quotes.rest](https://quotes.rest/). The extension is written in vanilla javascript. The new tab page shows the first 8 bookmarks from the `Bookmarks Bar` folder on chrome, `Favourites Bar` on edge and the `Bookmarks Toolbar` folder on firefox.
 
@@ -47,3 +47,11 @@ Added dark mode support:
   <source src="/assets/images/mnml-new-tab-dark-mode.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<!-- TODO(arpit): the 2020 text is accurate for its time, but the extension has changed since.
+Suggestion for a dated note, rewrite or delete:
+
+### Update - November 2026
+
+Quotes now come from the Mue API instead of quotes.rest, you can pick the bookmarks folder in options (added September 2021), and the extension moved to Manifest V3 in June 2023.
+-->
